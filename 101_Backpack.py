@@ -11,6 +11,6 @@ def BP(W, n, Ws):
                 A[i][c] = A[i-1][c]
             else:
                 A[i][c] = max((A[i-1][c]), (A[i-1][c - Ws[i]] + Ws[i]))
-    return A[-1][-1]
+    return A[W+1][-1]
 
 print(BP(W, n, Ws))
