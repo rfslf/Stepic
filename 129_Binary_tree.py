@@ -3,41 +3,36 @@ from heapq import heapify
 N = int(input())
 A = list(map(int, input().split()))
 
-
 def heapify():
     global A
-    '''Turns a list `A` into a max-ordered binary heap.'''
-    n = len(A) - 1
-    # start at last parent and go left one node at a time
-    for node in range(n//2, -1, -1):
-        __siftdown(node)
-    return
+    for i in range(len(A) // 2, -1, -1):
+        siftDown(i)
 
-def __siftdown(node):
-    global A
-    '''Traverse down a binary tree `A` starting at node `node` and
-    turn it into a max-heap'''
-    child = 2*node + 1
-    # base case, stop recursing when we hit the end of the heap
-    if child > len(A) - 1:
-        return
-    # check that second child exists; if so find max
-    if (child + 1 <= len(A) - 1) and (A[child+1] > A[child]):
-        child += 1
-    # preserves heap structure
-    if A[node] < A[child]:
-        __swap(node, child)
-        __siftdown(child)
-    else:
-        return
 
-def __swap(i, j):
+#def insert(key):
+#    global A
+#    A.heapSize = a.heapSize + 1
+#    a[a.heapSize - 1] = key
+#    siftUp(a.heapSize - 1)
+
+def siftDown(i):
     global A
-    # the pythonic swap
-    A[i], A[j] = A[j], A[i]
-    return
+    while 2 * i + 2 < len(A):     # heapSize — количество элементов в куче
+        left = 2 * i + 1             # left — левый сын
+        right = 2 * i + 2            # right — правый сын
+        j = left
+        if right < len(A) and A[right] < A[left]:
+            j = right
+        if A[i] <= A[j]:
+            if A[right] > A[left]:
+                A[right], A[left] = A[left], A[right]
+            break
+        A[i], A[j] = A[j], A[i]
+        if A[right] > A[left]:
+            A[right], A[left] = A[left], A[right]
+        i = j
 
 
 bh = heapify()
-
-print(A)
+for i in A:
+    print(i, end=' ')
