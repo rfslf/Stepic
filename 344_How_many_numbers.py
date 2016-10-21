@@ -1,20 +1,15 @@
+import bisect
 n = int(input())
 Numbs = list(map(int, input().split()))
+Numbs.sort()
 
-
-for i in Numbs:
-    for j in range(i, M):
-#        print(i,j)
-        book[j] += 1
 K = int(input())
 for i in range(K):
     l, r = map(int, input().split())
-    if l > M:
-        print(0, end=' ')
-    else:
-        if r > M:
-            r = M
-        print(book[r-1] - book[l-1], end=' ')
+#    print(l, r)
+    counter_L = bisect.bisect_left(Numbs, l)
+    counter_R = bisect.bisect(Numbs, r)
+    print(counter_R - counter_L, end=' ')
 #print(book)
 #    j = 0
 #    for num in Numbs:

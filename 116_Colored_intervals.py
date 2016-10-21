@@ -1,40 +1,37 @@
 N = int(input())
-l, r = map(int, input().split())
-A = list(range(l, r))
-for n in range(N-1):
-    C = []
+Ranges = []
+P = []
+for n in range(N):
     l, r = map(int, input().split())
-#    B = list(range(l, r))
-#    while A and B:
-    i = 0
-    while l < r and :
-        if A[i] > l:
-#        if A[0] < B[0]:
-            A.insert(i, l)
-            i += 1
-            l += 1
+    Ranges.extend([[l, 'l'], [r, 'r']])
+Ranges.sort()
+P = []
+paint = 0
+for i in Ranges:
+    if paint == 0:
+        if i[1] == 'l':
+            paint += 1
+            P.append(i[0])
+    elif paint == 1:
+        if i[1] == 'l':
+            paint += 1
+            P.append(i[0])
         else:
-            i += 1
-    if A:
-        C.extend(A)
+            paint -= 1
+            P.append(i[0])
     else:
-        C.extend(list(range(l, r)))
-    A = C
-
-def intervals(A):
-    count = 0
-    inter = True
-    for i in range(len(A)-1):
-        if A[i] != A[i+1]:
-            if inter:
-                count += 1
-            else:
-                inter = True
+        if i[1] == 'l':
+            paint += 1
         else:
-            inter = False
-#        print(inter, count)
-    if inter:
-        count += 1
+            paint -= 1
+            if paint == 1:
+                P.append(i[0])
+def range(L):
+    count = 0
+    i = 0
+    while i < len(L)-1:
+        count += (L[i+1] - L[i])
+        i += 2
     return count
-#print(A)
-print(intervals(A))
+
+print(range(P))
