@@ -1,0 +1,136 @@
+326 Encode the message
+We have the following symbol mappings: A ↔ 00 C ↔ 01 G ↔ 10 T ↔ 11
+Given a string of A's, C's, G's, and T's, encode the message via the above mapping and print out the resulting encoded
+message to standard output.
+
+327 Decode the message
+We have the following symbol mappings: A ↔ 00 C ↔ 01 G ↔ 10 T ↔ 11
+Given a string of 0's and 1's, decode the message via the above mapping and print out the resulting decoded message to
+standard output.
+
+328 ASCII table
+Implement the program that returns the letter, which stands after the "\" (backslash) symbol in the ASCII table by a
+given distance N.
+
+329 Assigments
+In this problem Python code is served as input. Your task is to find all the assignments in the code and to output where
+hey occurred, and the value of what variable they changed! Please remember that according to the PEP8 standard, the
+operation of assignment (in contrast to the transfer of an argument) is separated by a single space from both sides.
+Thus, as a valid assignment we consider if (something, consisting of only letters, numbers and lowerspace)=(something).
+In this problem we believe that there may be only one assignment of only one variable per line.
+For each assignment you need to output on a separate line – the line number (lines are numbered from one) and the name
+of the variable, value of which has been changed. The line numbers must be in ascending order.
+
+330 Remove all whitespace
+Jack doesn't like when Amy puts spaces before punctuation marks, but Amy cannot possibly get rid of this habit! Help Amy
+construct a regular expression, which will remove all whitespace characters before punctuation marks, not to freak out.
+
+331 Smiley face
+You need to check whether the string is a smiley face. If yes – output 1, otherwise – 0.
+Smiley:
+Eyes is one of ":" ";"  ">:",
+nose "-" either one or none at all,
+mouth is one of "{", "}", "[", "]", "(", ")", "p" at least once. One type may be repeated as many times as you want.
+All symbols go precisely in the listed order, smiley does not contain any other symbols.
+
+332 The Shortest Non-Shared Substring Problem
+Finally, we ask you to solve the Shortest Non-Shared Substring Problem. Shortest Non-Shared Substring Problem:
+Find the shortest substring of one string that does not appear in another string.
+Input: Strings Text1 and Text2.
+Output: The shortest substring of Text1 that does not appear in Text2.
+CODE CHALLENGE (Extra Credit!): Solve the Shortest Non-Shared Substring Problem. (Multiple solutions may exist, in which
+case you may return any one.)
+
+333 The Longest Repeat Problem
+Although the suffix tree decreases memory requirements from O(|Text|2) to O(|Text|), on average it still requires about
+20 times as much memory as Text. In the case of a 3 GB human genome, 60 GB of RAM is a huge improvement over the 1 TB
+that we needed to work with Trie(Patterns), but it still presents a memory challenge for most machines. This reveals a
+dark secret of big-O notation, which is that it ignores constant factors. For long strings such as the human genome,
+we will need to pay attention to this constant factor, since the expression O(|Text|) applies to both an algorithm with
+2 · |Text| memory and an algorithm with 1000 · |Text| memory.
+Yet before seeing how we can further reduce the memory needed for multiple pattern matching, we ask you to solve three
+problems showing how suffix trees can be applied to other pattern matching challenges. The first such problem is the
+Longest Repeat Problem.
+Longest Repeat Problem: Find the longest repeat in a string.
+Input: A string Text.
+Output: A longest substring of Text that appears in Text more than once.
+CODE CHALLENGE (Extra Credit!): Solve the Longest Repeat Problem. (Multiple solutions may exist, in which case you may
+return any one.)
+
+334 The Longest Shared Substring Problem
+The second additional exercise that we will consider is the Longest Shared Substring Problem. Longest Shared Substring
+Problem: Find the longest substring shared by two strings.
+Input: Strings Text1 and Text2.
+Output: The longest substring that occurs in both Text1 and Text2.
+CODE CHALLENGE (Extra Credit!): Solve the Longest Shared Substring Problem. (Multiple solutions may exist,
+ n which case you may return any one.)
+
+335 Surface area
+Given the four real (x,y) coordinates of a square A1A2A3A4, find its surface area.
+
+336 Converting Fahrenheit to Celsius
+Write a Python program to convert Fahrenheit to Celsius. C=5/9(F−32)
+
+337 True or False?
+A user enters two float numbers. Let's assume these are A and B. Print whether the following is true: A × B > A / B.
+It is guaranteed that the second number (B) isn't zero. Your program should simply print "True" or "False".
+
+338 Final amount of loan
+Write a simple Python program that calculates the final amount of your loan that earns compound interest, given the
+principal amount, the annual nominal interest rate, the number of times interested is compounded per year, and the
+number of years. If P is the principal amount (initial investment), r is the annual nominal interest rate, n is the
+number of times the interest is compounded per year, and t is the number of years, the total amount paid is
+A=P(1+rn)nt
+Amount owed is the principal amount multiplied by the amount one plus the annual nominal interest rate divided by n
+raised to the number of times compounded multiplied by the number of years. (exponentiation)
+Careful! The rules of precedence really matter in the student loan calculator problem.
+
+339 Square of the hypotenuse
+Given: Two positive integers a and b, each less than 1000. Write the integer corresponding to the square of the
+hypotenuse of the right triangle whose legs have lengths a and b. Do not write Python code as an output, just a single
+integer.
+
+340 Karatsuba algorithm
+Given two long integers 1≤x,y≤1050000 in decimal, output their product xy. Please note that some programming languages
+(like Haskell, Python, Java) provide long arithmetic out of the box. Please do not use built-in functions,
+but implement your own procedure.
+
+341 Linear regression
+Find the optimal coefficients to construct a linear regression. On input your program will get the name of the csv-file,
+from which you need to read data. Your task is to calculate the vector of the coefficients of the linear regression for
+he prediction of the first variable (the first column of data) by all the rest. Please remember that linear regression
+model is y=β0+β1x1+⋯+βnxn. Print the coefficients of the linear regression, starting with β0, space separated.
+We will verify the match with an accuracy of up to 4 digits after the decimal point.
+
+342 Deque
+Implement the deque with dynamic looped buffer. Commands are given as input in order to test the deque.
+The first line contains the number of commands. Then each line contains one command.
+Each command is specified as 2 integer numbers: a b.
+a = 1 - push front,
+a = 2 - pop front,
+a = 3 - push back,
+a = 4 - pop back.
+If given command is pop, then the number b is expected value. If the pop command is called for an empty deque, then “-1”
+is expected. You should output YES if all the expected values matched. Otherwise, if at least one expectation was not
+met, then output NO.
+
+343 Bracket sequence
+Given a fragment of the bracket sequence, consisting of the symbols (){}[].
+You need to find whether it is possible to continue this fragment to both sides to obtain the correct bracket sequence.
+If it is possible – output the minimum correct bracket sequence, otherwise output "IMPOSSIBLE".
+The maximum length of the string is 106 symbols.
+
+344 How many numbers?
+The first line contains the integer N (1≤N≤105). Next specified the array of integers from −109 to 109. Further goes
+the number of requests K (1≤K≤105), next go K pairs of requests L, R  (−109≤L≤R≤109).You need to output the K numbers,
+which are the responses to the requests "How many numbers in the array are located on the range from L to R?".
+
+345 Histogram
+At your individual Iris dataset take “Sepal length” (the first column) feature and find the histogram with 10 bins
+(left-open intervals). Put the array of frequencies at the bins in the order of bins as your output.
+
+346 Linear regression
+Find the coefficients of linear regression Y = aX + b of the petal length Y and petal width X (features 3 and 4
+respectively) as well as the determinacy coefficient between them. Output three float numbers in the following order:
+a coefficient, b coefficient, determency coefficient. Separete the numbers by spaces. All problems allow to make a
+default error of 0.001 in all decimal answers unless otherwise stated. It is enough to use 4 digits after the point.
