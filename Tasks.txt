@@ -1,3 +1,60 @@
+316 Re-occurrence of a symbol
+Given the list of phone numbers (each line contains one phone number). Your task is to check whether these phone numbers
+are "cool": a phone number is called "cool", if it contains 3 or more same digits in a row. For example, number
+19992034050 is a "cool" one, but 19500237492 is not.
+
+317 Sets of symbols
+In this problem, you get text on input. By using regular expressions you need to find all the occurrences of the "you"
+or "You" substring in it and output their quantity.
+
+318 Assignments - 2
+Python code is given on input; there may be only one assignment per line, but with several variables. It is necessary to
+find all uncommented assignments and for each such assignment output a space separated line number and name of each
+variable (in the same order they are in the assignment).
+
+319 Namespace
+Implement a program that will simulate the work with namespaces. It is necessary to implement the support for the
+creation of namespaces and adding variables into them.
+In this problem, each of the namespaces has its unique text identifier - its name.
+On input, your program is served the following requests:
+create <namespace> <parent> –  create the new namespace with the name <namespace> inside the space <parent>
+add <namespace> <var> – add the <var> variable to the namespace <namespace>
+get <namespace> <var> – get the name of the namespace, from which the <var> will be taken during the request from the
+<namespace>, or None, if such namespace does not exist
+
+320 JSON format
+You are given a description of the class inheritance in the JSON format.
+The description represents an array of JSON objects that match the classes. Each JSON-object has the name field, which
+contains the name of the class, and the parents field, which contains the list of names of the direct ancestors.
+
+321 Using standard library
+Download a JSON file and find sum of all foos. Foos are always integers.
+
+322 XML format
+You are given a description of a pyramid made of cubes in the XML format. The cubes can be of three colors: red (red),
+green (green) and blue (blue). We know the color of each cube, and the cubes, located directly under it.
+
+323 HTML-pages
+There are two HTML-pages – A and B. From A we can go to B in one step, if inside A there is a link to B, i.e. inside A
+there is a tag <a href="B">, possibly with additional parameters inside the tag. From A we can go to B in two steps,
+if there is such document C, that from A to C we can go in one step, and from C to B we can go in one step.
+On input your program gets two lines, containing the URLs to the two documents A and B. Output Yes, if you can go from
+A to B for two steps, otherwise output No.
+Please note that not all links inside the HTML pages can lead to an existing HTML pages.
+
+324 HTML-file
+Your program gets a link to an HTML-file as input.You need to download this file, and then find all links in a form
+<a ... href="..." ... > inside it, and output a list of websites to which there is a link. In this problem a website –
+is a domain name with all subdomains. I.e., this is a sequence of symbols, which follows right after the protocol
+symbols, if any, up to the symbols of port or path, if any, excluding the cases with relative links in the form
+<a href="../some_path/index.html">. Please output websites in the alphabetical order.
+
+325 Message encoding
+We will be dealing with a trivial example of message encoding, where the mapping of original symbols to the "code" is
+simply taking the ASCII value of the symbol. For example, the "code" version of the letter 'A' would be 65.
+You will be given as input a string of any length consisting of any possible ASCII characters. You must print out the
+numerical ASCII value of each character of the string, separated by spaces.
+
 326 Encode the message
 We have the following symbol mappings: A ↔ 00 C ↔ 01 G ↔ 10 T ↔ 11
 Given a string of A's, C's, G's, and T's, encode the message via the above mapping and print out the resulting encoded
