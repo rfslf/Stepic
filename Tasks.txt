@@ -1,3 +1,69 @@
+301 Breakpoints in a permutation
+Let  pn be a sequence of integer numbers.  If pi+1−pi is not equal to 1, then we say that (pi,pi+1) is a breakpoint.
+Find the number of breakpoints in a permutation.
+
+302 Spanish-Latin dictionary
+Input data: The first line contains the only integer number N that is the number of Spanish words in the dictionary.
+Then N descriptions follow: each of the descriptions is located in a separate line, where first goes a Spanish word,
+next goes the space separated dash (symbol number 45), and then go the translations of this Spanish word into Latin,
+separated by spaces and commas. Translations are sorted in the lexicographic order. The order of the Spanish words in
+the dictionary is also lexicographic. All words consist of only the lowercase Latin letters; length of each word does
+not exceed 15 characters. The total number of words at the input is not greater than 100000.
+Output data: Output the Latin-Spanish dictionary, corresponding to the given one, strictly observing the format of the
+input data. In particular, the first should be the translation of a lexicographically minimal Latin word, further - the
+second in this order, etc. Spanish words inside the translation must also be sorted in a lexicographic order.
+
+303 Turnpike Problem
+Turnpike Problem: Given all pairwise distances between points on a line segment, reconstruct the positions of those
+points.
+Input: A collection of integers L.
+Output: A set of integers A such that ∆A = L.
+
+304 Adjacency matrix
+Given square matrix consisting of n×n zeros and ones. Find whether this matrix can be an adjacency matrix of a simple
+undirected graph.
+
+305 Backslash
+Given a sequence of lines. Output the lines, which contain the backslash "\".
+
+306 Find a cat
+Given a sequence of lines. Output all the lines, which contain "cat" as a word.
+
+307 Swap letters
+Given a sequence of lines. In each line swap the first two letters in every word, consisting of at least two letters.
+A symbol from the group \w is considered a letter.
+
+308 Two letters "z"
+Given a sequence of lines. Output the lines, containing 2 letters "z" between which there are exactly three characters.
+
+309 Find a cat - 2
+You have been given a sequence of lines. Output the lines which contain "cat" as a substring at least twice.
+
+310 Tandem repeat
+Given a sequence of lines. Output the lines, which contain the word, consisting of two identical parts (tandem repeat).
+
+311 Replacement
+Given a sequence of lines. In each line replace all occurrences of the substring "human" to the substring "computer"
+and output the resulting lines.
+
+312 Binary notation
+Given a sequence of lines. Output the lines, containing the binary notation of a number, divisible by 3. Binary notation
+of a number is its notation in the binary numbering system. This problem can be easily solved by reduction of the string
+to an integer and verification of the remainder of division by three, but still, we ask you to solve it without using
+reduction to a number. Try regular expressions.
+
+313 Multiple identical letters
+Given a sequence of lines. In each line replace all occurrences of multiple identical letters by one letter. A symbol
+from the group \w is considered a letter.
+
+314 Replacement - 3
+Given a sequence of lines. In each line replace the first occurrence of the word, consisting of only the Latin letters
+"a" (case insensitive), to the word "argh".
+
+315 Pattern
+In this problem, you get text as an input. By using regular expressions you need to find all occurrences of the "you"
+substring in it and output their number. NB. In this problem, you should also consider the case of letters.
+
 316 Re-occurrence of a symbol
 Given the list of phone numbers (each line contains one phone number). Your task is to check whether these phone numbers
 are "cool": a phone number is called "cool", if it contains 3 or more same digits in a row. For example, number
