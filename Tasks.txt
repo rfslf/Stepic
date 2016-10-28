@@ -1,3 +1,46 @@
+291 Remove letters
+A user inputs a word. Remove all letters that are in even positions in the word, and print what's left.
+
+292 String Composition Problem
+Given a string Text, its k-mer Compositionk(Text) is the collection of all k-mer substrings of Text (including repeated
+k-mers). For example, Composition3(TATGGGGTGC) = {ATG, GGG, GGG, GGT, GTG, TAT, TGC, TGG}
+
+293 Vacation problem
+Write a program to figure out what day you would return, given the day you leave and how many days you will be gone.
+For example:
+If you leave on a Friday and you are gone for two (2) days, you would return on a Sunday.
+If you leave on a Monday and you are gone for eight (8) days, you would return on a Tuesday.
+If you leave on a Wednesday and you are gone 23 days, you would return on a Friday.
+The program should ask for the day to leave and how many days the person will be away.
+
+294 Two boxes
+There are two boxes. First one has the size of A1×B1×C1, second one – the size of A2×B2×C2. Find whether you can place
+one of these boxes inside the other one. You can turn the boxes only 90 degrees around the edges.
+
+295 Graphics
+https://ucarecdn.com/b3eff22a-e789-40fd-9489-bfb2fb389d17/
+Check whether the point belongs to the given filled area (simple parabolas – y = (x-a)^2 + b )
+
+296 Chess board
+You are given two coordinates on a chess board of the first queen and two of the second. Find out, whether two queens
+hit each other or not.
+
+297 Horses on a chess board
+There are two horses on a chess board and four coordintes x1, y1, x2, y2 are typed in. Determine, whether they can hit
+each other or not.
+
+298 Matrix multiplication
+Given the two square matrices A, B having size n×n each (1≤n≤700). Elements of the both matrices are integers, not
+exceeding 106 by absolute value. You need to find the matrix C=A×B.
+
+299 Solution in natural numbers
+On input given the number N (0⩽N⩽1012). If there exists natural numbers (or 0) x, y such that x2+y2=N, then you need to
+output them. In case there are several solutions, output any of the pairs. Otherwise, output "No solution".
+
+300 Prime factorization
+Output the prime factorization of the natural number n > 1. Prime multipliers should be listed in ascending order and
+separated by spaces.
+
 301 Breakpoints in a permutation
 Let  pn be a sequence of integer numbers.  If pi+1−pi is not equal to 1, then we say that (pi,pi+1) is a breakpoint.
 Find the number of breakpoints in a permutation.
