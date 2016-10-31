@@ -1,3 +1,55 @@
+281 Bowling pins
+N bowling pins were put in one row and numbered from left to right with numbers from 1 to N. Then K balls were thrown
+at this row; i-th ball knocked down all pins with numbers from li to ri  inclusive. Find which pins remained standing.
+
+282 Swap neighbouring items
+Swap the position of neighbouring items of the list (A[0] with A[1], A[2] with A[3] etc.). If there is odd number of
+elements in the list, the last element remains at its position.
+
+283 Shift
+In this problem, you need to implement the function, which shifts the contents of the array to the left for a specified
+number of positions (circular shift). On input, the function takes the array, its size and the value of the shift. For
+example, if on input the function receives the array: a = [ 1, 2, 3, 4, 5 ]; and you need to circularly shift it 2
+positions to the left, on the output we will get the numbers in the following order: 3, 4, 5, 1, 2.
+Note that the value of the shift may be zero, and may be larger than the size of the array; please take into account
+all these cases.
+
+284 Step matrix
+Write the function that takes one integer number N and returns the "c" matrix, consisting of N floors. The floors are
+numbered from the first one; the width of each step is equal to one row or column.
+
+285 Synonyms
+You are given the dictionary, consisting of pairs of words. Each word is a synonym to its pair-word. All the words in
+the dictionary are different. Determine the synonym to a one given word.
+
+286 Sequence of positive integers
+You need to write a program that "flips" a sequence of positive integers. On input there is a sequence of space
+separated positive integers. The sequence ends with zero. You are required to output the sequence in the reverse order.
+The numbers should be space separated on the output. The terminating zero is simply the indicator of the end of the
+sequence, it is not a part of it, i.e. you should not output it.
+
+287 String with numbers
+Input – one line of random text. The text contains words and integer numbers. Your program should calculate and output
+the sum of all integers that appear in the text.
+
+288 Substring
+On input your program gets the two strings s and t, consisting of lowercase Latin letters.
+Output one number – the number of occurencies of the string t in the string s.
+
+289 Replacement
+Given three strings – s, a, b, which consist of lowercase Latin letters. In one operation you may replace all
+occurrences of the substring a in the string s to the string b. For example, s = "abab", a = "ab", b = "ba", then after
+performing one operation the string s goes to the string "baba", after performing two operations – to the string "bbaa",
+and all further operation will not alter the string s. You need to find out after how many operations there will be no
+occurrences of string a in the string s, or to find out that this will not happen. Output a single number – the number
+of operations after which there will be no occurrences of the string a in the string s.
+
+If after performing any number of operation there still will be occurrences of the string a in the string s, output Impossible.
+
+290 The second word
+A user enters a phrase, which is just a bunch of words separated by commas.
+Print the second word in the sentence (it is guaranteed that there's at least two words there).
+
 291 Remove letters
 A user inputs a word. Remove all letters that are in even positions in the word, and print what's left.
 
