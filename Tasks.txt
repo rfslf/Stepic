@@ -1,3 +1,38 @@
+271 The N-th Fibonacci number
+Given the integer 1≤n≤40, you need to find the n-th Fibonacci number.
+
+272 The N-th Fibonacci number - 2
+Given the integers 1≤n≤1018 and 2≤m≤105. Find the reminder of division of the n-th Fibonacci number by m.
+
+273 Last digit
+Given the integer 1≤n≤107, you need to find the last digit of the n-th Fibonacci number. As we remember, Fibonacci
+numbers grow very quickly, therefore you should be extremely careful when calculating them. In this problem, however,
+we can evade this issue, because we are interested only in the last digit of the Fibonacci number: if 0≤a,b≤9
+— the digits of numbers Fi and Fi+1 correspondingly, than (a+b)mod10 — the last digit of the number Fi+2.
+For each of the entered number N, find the number of integers from 1 to N, relatively prime (coprime) to N.
+
+275 The smallest integer
+Given two integers 1≤a,b≤2⋅109. Find the smallest integer m, which can be divided both by a, and by b.
+
+276 The gcd
+Find the greatest common denominator of the two integers.
+
+277 Queens
+It is known that on the board 8×8 in size you can place 8 queens so that they do not beat each other. You are given the
+placement of these 8 queens on the board, please find whether there is a pair of queens beating each other among them.
+
+278 Sequence of integers
+Write a program that reads the sequence of integers, separated by spaces, and then deletes from it all of the numbers
+that are placed on the even positions, and after this outputs the resulting sequence in the reverse order.
+
+279 Cyclically shift
+Cyclically shift the elements of the list to the right (A[0] goes to the place of A[1], A[1] - to the place of A[2], ...
+, and the last element goes to the place of A[0]).
+
+280 Pairs
+Given the list of numbers. Calculate how many pairs of elements are equal to each other. It is considered that any two
+elements, which are equal to each other, form one pair that you need to count.
+
 281 Bowling pins
 N bowling pins were put in one row and numbered from left to right with numbers from 1 to N. Then K balls were thrown
 at this row; i-th ball knocked down all pins with numbers from li to ri  inclusive. Find which pins remained standing.
