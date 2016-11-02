@@ -1,3 +1,61 @@
+261 Work with the API 2
+In this problem, you need to use the API of the numbersapi.com website. You are given a set of numbers. For each of the
+numbers you need to find out whether there is an interesting mathematical fact about this number. Output string
+Interesting for each of the numbers that have an interesting fact, and Boring otherwise. Output the information on
+numbers’ interestingness in the same order, in which these numbers are presented in the input file.
+
+262 Work with the API
+In this problem you need to use the API of artsy.net. API of the Artsy project provides information on some of the
+artists, their works and exhibitions. As part of this problem you will need to get the information about the people of
+art (let us briefly call them "artist"). You are given IDs of artists in the Artsy database. For each of the IDs get the
+information on the name of the artists and his or her birth year. Output names of the artists in a nondecreasing order
+by their birth years. If the artists have the same year of birth, output their names in lexicographic order.
+
+263 Change Problem
+Solve the Change Problem.
+Input: An integer money and an array Coins=(coin1,⋯,coind).
+Output: The minimum number of coins with denominations Coins that changes money.
+
+264 The shortest distance
+Find the shortest distance between the two local maximums of the sequence of natural numbers, ending with the number 0.
+The number 0 itself is not included into the sequence and serves as a sign of its end. If there are no two local
+maximums in the sequence, output 0. The start and the end value are not considered as a local maximums.
+
+265 Strict local maximums
+The element of a sequence is called a local maximum, if it is strictly greater than the previous and the subsequent
+element of the sequence. The first and the last elements of the sequence are not the local maximum. Given the sequence
+of natural numbers, ending with number 0. The number 0 itself is not included into the sequence and serves as a sign of
+its end. Find the number of strict local maximums in this sequence.
+
+266 Binary logarithm
+Write a program to calculate the integer-valued log to base 2 (binary log). Input – first line contains an integer T,
+next go the T lines with tests. Each tests consists of one positive integer ai<109. For each ai you need to output on a
+separate line such largest number p, that 2p≤ai. It is guaranteed that ai≥1. While solving this problem, you an define
+any functions you need any. Moreover, it is recommended to put the calculation of the log into a separate function.
+
+267 Shoe store
+The shoe store sells shoes of different sizes. It is known that you can wear one pair of shoes on the other one, if it
+is at least three sizes larger. A buyer came to the store. You need to find the greatest number of pairs of shoes, which
+the seller can offer to this buyer, so that she is able to wear them all at the same time.
+
+268 Participants of Olympiad
+During the Olympiad, each of the participants received his own identification number – an integer. The list of
+participants of the Olympiad needs to be sorted by the number of points they have gained.
+
+269 Points
+Output all the given points in ascending order of their distance from the origin of the coordinate system.  The program
+gets the set of points in the plane as input. First goes the number of points – n, then is a sequence of n lines, each
+of which contains two numbers: the coordinates of the point. The value n does not exceed 100, all of the initial
+coordinates are integers, not exceeding 1000.
+
+270 Gradebook
+Output names and surnames of the students in descending order of their average grade.First given the number of students
+n, then n lines, each of which contains the surname, name and three numbers (grades for three subjects: mathematics,
+physics, and informatics). The numbers in the line are separated by a single space. The grades shall take the value from
+1 to 5. You need to output the surname-name pairs on a single line, separating surname and name by a single space. You
+don't need to output marks. If several students have the same average grade, you need to output them in the order
+specified in the input data.
+
 271 The N-th Fibonacci number
 Given the integer 1≤n≤40, you need to find the n-th Fibonacci number.
 
