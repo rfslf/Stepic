@@ -1,3 +1,55 @@
+251 LCD-calculator
+Given a sequence of digits, write a program, which outputs these digits in the style of an LCD-calculator (see example).
+The size of all digits is 4 symbols in width and 7 symbols in height. There should be one empty column between the
+digits in the output. There should be no spaces before the first digit. Digits in the output should be framed, corners
+of this frame should contain the x symbols, a horizontal line if created by the - symbol ("hyphen"), and the vertical
+one -- by the vertical line symbol: |.
+
+252 Derivative of the polynomial
+The problem is simple – find the derivative of the polynomial. The polynomial can be large, but only with non-negative
+integral powers and integer coefficients. Think about how it is better to represent it in the memory? The output should
+contain no spaces and be in the descending order of powers, although the input may not comply with this rule.
+Additionally, the input may contain a polynomial with unreduced terms.
+
+253 Conway's Game of Life
+Write a program, calculating the next state of the field for the Conway's Game of Life. The field is a rectangle; the
+cells on the edge have the cells from the opposite side as their neighbours (the field is a torus).
+Input format: First line specifies two integers separated by a space - the height and the width of the cell.
+Next lines contain information on the state of the cell. A dot "." marks a dead cell, an "X" symbol − alive one.
+Output format: The next state of the field, using the same markings as in input.
+
+254 Coverting from decimal into Roman system
+Find the string which represents this number in the Roman numeral system.
+
+255 From Roman system into the decimal
+Write a program that converts the number from Roman system into the decimal one.
+
+256 Minesweeper game
+A field for the minesweeper game is a grid n×m in size. The cell of the grid may or may not contain a mine.
+Write a program that outputs "solved" field, i.e., for each cell, which is not a mine, it indicates the number of mines
+in the neighbouring cells (including diagonal directions)
+
+257 Number of occurrences
+Given two strings s and t, consisting of lowercase letters of the Latin alphabet.
+Find the number of occurrences of the line t in the line s.
+
+258 Prime numbers
+Implement the generator function primes, which will generate prime numbers in ascending order, starting from number 2.
+
+259 Phoebe Iterson
+In this problem, you have to write the fibonacci_sequence class, from which we can take the iterator, which will sort
+numbers from the Fibonacci sequence.
+
+260 Implementation of the multifilter class
+Class filter is one of the most frequently used classes in Python. In the constructor it takes the two arguments a and f
+– a sequence and a function, and allows to iterate only by such elements x from the sequence a that f(x) equals to True.
+Let’s say that in this case the function f accepts the element x, and the element x is an accepted one.
+In this problem, we ask you to implement the multifilter class, which will do the same as the standard filter class, but
+will use several functions instead of a single one. The decision to accept an element will be taken based on how many
+functions accept  this element, and how many don't. Let us mark these quantities as pos and neg. Let us introduce the
+notion of the decision function – this is the function, which takes the two arguments – numbers pos and neg, and returns
+True, if the element is allowed, and False otherwise.
+
 261 Work with the API 2
 In this problem, you need to use the API of the numbersapi.com website. You are given a set of numbers. For each of the
 numbers you need to find out whether there is an interesting mathematical fact about this number. Output string
