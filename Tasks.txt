@@ -1,3 +1,129 @@
+231 Grouping
+For this problem, input is the code in Python. Your task is to find all the assignment in this code, and output, where
+they occurred and the value of what variable they have changed! Please remember, that according to the PEP 8 standard,
+the assignment operator is separated by a single space from both ends (unlike passing an argument). This way an
+assignment is deemed valid and we consider that (something, consisting only from letters, numbers and underscore) =
+(something). In this problem we consider that a line may contain only one assignment and only to one variable. For each
+assignment, you need to output in a separate line – the line number (line numbers are numbered from one) and the name of
+the variable, whose value has been changed. Line numbers must be in ascending order.
+
+232 Replacement
+Task is to keep only words separated by a space (you need to get rid of all the other characters, whether they are line
+breaks, commas or periods).
+
+233 Sets of symbols
+In this problem, you get text as input. By using regular expressions you should find all occurrences of the "you" or
+"You" in it and output the number of occurrences.
+
+234 Character by character match
+In this problem the input is text. Using regular expressions, find all occurrences of the "you" substring in it and
+display its number. This problem is case-sensitive.
+
+235 Vehicle registration number
+Write a program that uses regular expressions to check whether the input string is a vehicle registration number.
+Vehicle registration number has the following format: ?***??, where ? – a Latin symbol from the set [A, B, E, K, M, H,
+O, P, C, T, Y, X], and * – any digit from 0 to 9. The program should output Yes or No.
+
+236 Phone number
+Write a program that uses regular expressions to check whether the input string is a phone number. A phone number has
+the following form: 19∗∗∗∗∗∗∗∗∗, where ∗ is any number from 0 to 9. The program should print Yes or No.
+
+237 Secure sum
+Implement the sum function, which accepts two arguments and behaves the following way. If the type of at least one of
+the arguments is not int , the function throws TypeError. If the type of both arguments are not int, i.e. are integers,
+but at least one of the numbers is not a positive one, the function throws ValueError. Otherwise, the function returns
+the sum of the arguments.
+
+238 Catch me, if you can
+In this problem, your program will be able to call the foo function, which does not take any arguments. The foo function
+may throw one of the following three exceptions: AssertionError, MemoryError and RuntimeError. In your program you need
+to call the foo function, catch a thrown exception and, depending on the type of exception, output "Caught <name of the
+exception>". For example, if the foo function throws AssertionError, you need to output "Caught AssertionError" (output
+the message without the quotation marks). Your program should not declare the foo function, it should only call it.
+
+239 Exceptions on the stack
+You are given a description of the current state of the program. Up to this point, we’ve made the chain of function
+calls and the latest called function currently handles the exception. You are given the stack of functions calls, the
+behaviour of the functions when handling various exceptions and the name of the currently processed exception.
+Functions can operate with an exception as follows.
+The function does not handle (does not catch) the exception. In this case, the function is removed from the call stack,
+and the exception is thrown further.
+The function handles the exception and throws a new exception. In this case, the function is removed from the call stack
+and the new exception is thrown further.
+The function handles the exception and continues to work correctly. In this case, the function remains on the stack of
+calls and no new exceptions are generated.
+
+
+240 Exeptions 2
+Write a function  get_int(start_message, error_message, end_message), taking three strings as arguments. The function
+should ask users for the input until an integer is entered (a string, which is accepted by the int function without
+errors).ore the first request you should enter the  start_message, argument, after each faulty input you should output
+the value of the string error_message and in case of a successful input - the string end_message and return the received
+integer from the function (see example below). Each output message should be on a separate line.
+
+241 Exceptions
+Your program will have an access to foo function, which can throw exceptions. You need to write a code, which launches
+this function and than catches the ArithmeticError, AssertionError, ZeroDivisionError exceptions and outputs the name of
+the caught exception.
+
+242 Positive list
+Implement the class PositiveList which stores positive integers, by inheriting it from the class list. Also implement
+the new exception NonPositiveError. In the class PositiveList redefine the method append(self, x) in such a way that
+when someone tries to add a non-positive integer, it throws an exception NonPositiveError. In case of a positive
+integer, it should be appended as in a standard list. In this problem it is guaranteed that an integer will always be
+passed as an argument x for the append method.
+
+243 Awkward situation
+You are given a description of the exception classes inheritance in the following format.
+<exception name 1> : <exception name 2> <exception name 3> ... <exception name k>
+It means that exception 1 is inherited from exception 2, exception 3, etc.
+
+244 The average height of a student
+There is a file with the table in TSV format, containing the information regarding height of the students from different
+grades. Write a program that reads the file and calculates the average height of a student for each grade. The file
+consists of a set of lines, each of which represents three fields: Grade Surname Height
+Only a number marks the grade. Letter modifiers are not used. The grade number can be from 1 to 11 inclusive. There are
+no spaces in the surnames, and the height is expressed as a natural number, but when calculating the average you need to
+calculate the value in the form of a real number. You should output the information on the average height in ascending
+order of the grade number (for the grades from the first to the twelve). If there is no information about some grade,
+output a dash, see example.
+
+245 Repetition coding
+Encoding of repeats is carried as the following: s = 'aaaabbсaa' is converted into 'a4b2с1a2', that is, the groups of
+the same characters of the input string are replaced by the symbol and the number of its repetitions in this string.
+Write a program that reads a line from the file corresponding to the string, compressed using the repetition coding, and
+performs the reverse operation, obtaining the source string. Output the obtained string into a file and attach it as a
+solution to this problem. The original string does not contain any numbers; it means that the code is definitely
+interpretable.
+
+246 The most frequent word
+Write a program that reads the text from the file (the file may contain more than one line) and outputs the most
+frequent word in the text, and after a space - how many times it occurred. If there are several such words, output the
+first one in a lexicographical order (you can use the < operator for the strings). The words written in different
+registers (cases) are considered to be the same.
+
+247 Students’ performance data
+There is a file with the students’ performance data. It consists of a set of rows, where the following information is
+stored in each of the rows: Surname;Math_grade;Physics_grade;English_grade
+All the fields within the row are separated by semicolon. All the grades are integers. Write a program that reads a file
+with this structure, and for each of the students it outputs his average grade for these three subjects on a separate
+line, corresponding to this particular student. In addition, a separate line at the end of the file should contain the
+average grade for math, physics and English for all students, separated by a space.
+
+248 Next file
+Given a set of files, each of which (except the last one) contains a name of the next file. First word in the text of
+the last file: "We". Download the provided file. It contains a link to the first file from this set. All files are
+located in the catalogue at https://stepic.org/media/attachments/course67/3.6.3/ Upload the content of the last file
+from the set as a solution for this problem.
+
+249 Generate the new text file
+Given a text file that contains some number of non-empty lines. Using this file, generate the new text file, which
+contains the same lines in the reversed order.
+
+250 Even-numbered lines
+Given: A file containing at most 1000 lines. Return: A file containing all the even-numbered lines from the original
+file. Assume 1-based numbering of lines. Please copy the content of output file into the text field below.
+
 251 LCD-calculator
 Given a sequence of digits, write a program, which outputs these digits in the style of an LCD-calculator (see example).
 The size of all digits is 4 symbols in width and 7 symbols in height. There should be one empty column between the
