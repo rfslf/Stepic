@@ -1,3 +1,52 @@
+221 Tower of Hanoi
+Tower of Hanoi is one of the well-known puzzles with the following rules. Given three rods (let's number them as 1, 2
+and 3). The first rod has n rings on it with radius from 1 to n. Rings are ordered by radius, and the largest of the
+rings lies below all others. You should write an algorithm to move all n rings from the first rod to the third rod,
+sticking to the following rules:
+Only one disk can be moved at a time.
+No disk may be placed on top of a smaller disk.
+The program should output the shortest sequence of actions required to move all the rings from the 1 rod to the 3 one.
+
+222 Koch curve
+Write a program that takes number n as input − the number of iterations to generate curve, and outputs the sequence of
+turn angles when drawing a corresponding line from the start to the end point, without leaving the pen.
+
+223 Collatz conjecture
+Given natural number n. Generate a sequence of integers, described in the Collatz conjecture: If n is an even number,
+divide it in half, if it is odd, multiply it by 3 and add 1. Repeat this operation until we get the number 1 as a result.
+
+224 Double factorial
+Implement a function to compute the double factorial, that is the product of natural numbers with the same parity and
+not exceeding a given number. The function argument can be any non-negative integer.
+
+225_The_first_and_the_last_elements
+Write a program, which gets as input the list of numbers (for example, a=[5,10,15,20,25]) and creates a new list,
+consisting of the first and the last elements of the given list. Write a solution with the use of the function.
+
+226 Find number
+Given positive integer N. Find the number of positive integers less than N such that their sum of digits (in decimal
+notation) is equal to the sum of digits in the number N. Output the number of such integers.
+
+227 Interpreter of the mathematical expression
+Write a simple interpreter of the mathematical expression. The input is a string with expression, consisting of two
+numbers, connected by a binary operator: a operator b, where instead of operator the following words can be used: plus,
+minus, multiply, divide - for addition, subtraction, multiplication and integer division respectively.
+
+228 Mod checker
+Implement the mod_checker(x, mod=0) function, which will generate lambda function of the single argument y, which will
+return True, if the remainder of dividing y by x equals to mod, and False otherwise.
+
+229 A bit harder
+The input of this problem in a Python code; each line may contain one assignment, but with a several variables. You need
+to find all uncommented assignments and for each of them output the space separated number of the line (in which it
+occurs) and the name of each variable (in the same order as they are in the assignment).
+
+230 Repeats
+This problem has an input text - the list of phone numbers (one phone number per line). Your task is to check whether
+these phone numbers are "cool": the phone number is called "cool", if it contains 3 or more of the same digits in a row.
+For example, number 19992034050 is a "cool" one, but 19500237492 is not. Your task is to leave only the cool numbers:
+standard output should contain the "cool" numbers, each number on a separate line.
+
 231 Grouping
 For this problem, input is the code in Python. Your task is to find all the assignment in this code, and output, where
 they occurred and the value of what variable they have changed! Please remember, that according to the PEP 8 standard,
