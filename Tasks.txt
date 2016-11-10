@@ -1,3 +1,50 @@
+211 Find the resulting value
+Given the function f(x), where x is an integer. You should compute  f1024(x), where fn(x)=f(f(...f(x)...)) n times, for
+example, f2(x)=f(f(x)) Recursion is prohibited; so you are allowed to use only simpler language constructions
+(functions, expressions, variables). When solving this problem you should assume that function f is already declared and
+implemented. You should read an integer x from the input, and output the resulting value of f1024(x), using the print
+function.
+
+212 Positive filter
+Write the function filter_positive, which takes a list of numbers as input, and, not changing this list, returns the new
+list containing only the positive elements of it. You should not write input and output, only a function.
+
+213 Exclude duplicates
+Write a program, which takes the list of numbers and creates a new list, which contains all the elements of this list,
+excluding duplicates. Write your solutions as a function f(ls).
+
+214 Fibonacci
+Write a program with the function fib(n), which returns the n-th Fibonacci number by the given non-negative integer n.
+You can't use loops in this problem – use the recursion. Your program should read the n, call the fib(n) function and
+print the answer.
+
+215 Sum of numbers
+Given the sequence of numbers, ending with number 0. Find the sum of all these numbers without using a loop.
+
+216 Skyscraper
+The skyscraper has n floors. It is known that if you drop the glass ball from the floor p and it breaks, if you drop it
+from the floor p+1 it will also break. It is also known that the ball always breaks if you drop it from the last floor.
+You need to determine the minimum floor number, falling from which the ball will break. You have two balls to perform
+the experiment. You can break them both, but you need to provide the exact correct number after that. Find out what
+number of throws is enough to solve this task.
+
+217 Power 3
+Given a real positive number a and an integer number n.Find an. You need to write the whole program with a recursive
+function power(a, n).
+
+
+218 N-th power
+It is possible to find a n-th power much quicker than by making n multiplications! To do this you need to use the
+following recurrence relations: an=(a2)n/2 for even n, an=a×an−1 for odd n. Implement the algorithm of quick
+exponentiating using a recursion function. Given a real number a and a non-negative integer n.
+
+219 Decompositions
+Given the integer N (1≤N≤40). List all the decompositions of N into the whole positive addends. The addends should go in
+non-ascending order within each decomposition. Output all decompositions in the lexicographical order.
+
+220 k-combination
+Implement the program, which calculates C(n, k) for the specified n and k.
+
 221 Tower of Hanoi
 Tower of Hanoi is one of the well-known puzzles with the following rules. Given three rods (let's number them as 1, 2
 and 3). The first rod has n rings on it with radius from 1 to n. Rings are ordered by radius, and the largest of the
