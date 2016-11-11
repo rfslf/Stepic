@@ -1,3 +1,52 @@
+201 Minimum of two numbers
+Write the function min(a, b) that finds the minimum of two numbers. Then write a function min4(a, b, c, d) that finds
+the minimum of four numbers using the min function. Read four integers and output their minimum.
+
+202 Shaded area
+If the point belongs to the area (the area includes the borders), output the word YES, otherwise - output NO. The
+solution must contain the function IsPointInArea(x, y), returning True, if the point belongs to the area, and False
+otherwise. Your program should read the coordinates of the point, call the IsPointInArea function and, depending on the
+returned value, output the desired message to the screen. Function IsPointInArea should not contain the if statement.
+
+203 Square
+Given the two real numbers x and y. Check whether the point with the coordinates (x, y) belongs to the shaded square
+(including its boundary). If the point belongs to this square, output the word YES, otherwise - output NO. Your solution
+should contain the IsPointInSquare(x, y) function, returning True, if the point belongs to the square and False, if it
+doesn't belong. Your program should calculate the coordinates of the point, call the IsPointInSquare function and,
+depending on the returned value, display the corresponding message. The function IsPointInSquare must not contain the if
+statement.
+
+204 Distance
+Given the four real numbers: x1, y1, x2, y2. Write the function distance(x1, y1, x2, y2), calculating the distance
+between the point (x1. y1) and point (x2, y2). Read the four real numbers and output the result of this function's call.
+
+205 Square 2
+Given the two real numbers x and y. Check whether the point with the coordinates (x, y) belongs to the shaded square
+(including its boundary). If the point belongs to this square, output the word YES, if otherwise - output NO. Your
+solution should contain the IsPointInSquare(x, y) function, returning True, if the point belongs to the square and
+False, if it doesn't belong. Your program should input the coordinates of the point, call the IsPointInSquare function
+and, depending on the returned value, display the corresponding message. The function IsPointInSquare must not contain
+the if statement.
+
+206 The smallest number
+Write the implementation of the function closest_mod_5, which takes a single argument (integer x) and returns the
+smallest number y, such that: y is greater or equal to x, y divides evenly by 5.
+
+207 Sum of digits
+Write a function that takes a positive three-digit number as input and returns the sum of its digits. The function
+should have a name digit_sum and take an argument n.
+
+208 Expression 2
+Write a function to compute the value of the following expression: 1−6pqpq. The function should have the name calc_expr
+and a single parameter p∈(0,1). It may be convenient to create the variable q=1−p inside the function.
+
+209 Power 2
+Write the function pow, having the two integer arguments: a and p, and returning the value of ap.
+
+210 Expression
+Write a function to compute the value of the following expression: a+bc5−a3+a+c34. Where a, b, c - integers.
+The function should have a name calc_expr and the three parameters: a, b, c.
+
 211 Find the resulting value
 Given the function f(x), where x is an integer. You should compute  f1024(x), where fn(x)=f(f(...f(x)...)) n times, for
 example, f2(x)=f(f(x)) Recursion is prohibited; so you are allowed to use only simpler language constructions
