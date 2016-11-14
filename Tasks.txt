@@ -1,3 +1,65 @@
+191 Spell checker
+The simplest spell checker is based on a list of known words. Every word in the checked text is searched for in this
+list and, if such a word was not found, it is marked as erroneous. Write this spell checker. The first line of the input
+contains d– number of records in the list of known word. Next go d lines contain one known word per line, next — the
+number l of lines of the text, after which — l lines of the text. Write a program that outputs those words from the
+text, which are not found in the dictionary (i.e. erroneous). Your shell checker should be case insensitive. The words
+are entered in an arbitrary order. Words, which are not found in the dictionary, should not be duplicated in the output.
+
+192 Substitution cipher
+Write a program that can encode and decode the substitution cipher. The program accepts two input strings of the same
+length; the first line contains the characters of the original alphabet, the second line - the symbols of a resulting
+alphabet, then goes a line you need to encode by the transmitted key, and another line to be decrypted.
+
+193 Football teams
+Given a list of football teams with the result of the match. Output the summary table of the results of all matches.
+The team gets 3 points for winning, 0 points for loosing, 1 point for draw.
+Input format: The first line specifies the integer n— the number of completed games. After this follow the n lines,
+which contain the game results in the following format:First_team;Goals_by_first_team;Second_team;Goals_by_second_team
+Output of your program should look like the following: Team:Total_games Wins Draws Defeats Total_points
+You can output teams in an arbitrary order.
+
+194 Pete's homework
+First input the integer N — the number of words in the dictionary (0 ≤ N ≤ 20000). Next go N lines with words from the
+dictionary. Each word consists of not more than 30 symbols. All words consist of capital (uppercase) and small
+(lowercase) letters of the Latin alphabet. Each word contains only one capital letter - the one, on which the emphasis
+should be made. The words in the dictionary are listed in alphabetical order. If there are multiple emphasis placement
+possibilities in the same word, then these options in the dictionary are in arbitrary order. Next goes the homework,
+done by Pete. Homework is a single line of text, having a total length of not more than 300,000 characters. This line
+consists of words that are separated by exactly one space. The length of each word does not exceed 30 symbols. All words
+consist of the lowercase and uppercase letters of the Latin alphabet (uppercase are the letters, where Pete put the
+emphasis). By an error, Pete could put more than one emphasis in a single word or may not put an emphasis at all.
+Output the number of errors in the Pete's text, which Vince will find.
+
+195 Symmetric difference of sets
+The input for this program are two sets. Each set in a separate line; elements of the set are space separated.
+Your program must output the symmetric difference of these sets.
+
+196 How many different numbers are in list?
+Given the list of integers, which may contain up to 100,000 numbers. Find how many different numbers are in this list.
+
+197 Jolly jumper
+The sequence of n>0  integers is called a jolly jumper if the absolute differences of the consecutive elements take all
+the possible values between 1 and n−1.For example, the sequence 1 -3 -4 -1 1 is a jolly jumper sequence, as the absolute
+differences are equal to 4 1 3 2, accordingly, and n−1=4.We assume that a sequence containing only one element is a
+jolly jumper. Write a program that checks whether the entered sequence is a jolly jumper.
+
+198 Value of the function
+Write the function f(x), which returns the value of the next function, defined for any number:
+
+199 Modify list
+Write the function modify_list(l), which takes the list of integers as an argument, deletes all odd numbers from this
+list, and integrally divides all even numbers by two. The function should not return anything; it needs only to alter
+the list, for example:
+
+200 Circle
+Given five real numbers: x, y, xc, yc, r. Check whether the point (x, y) belongs to the circle with centre (xc, yc) and
+radius r. If the point belongs to the circle, output the word YES, otherwise - output NO. The solution should contain
+the IsPointInCircle(x, y, xc, yc, r) function, returning True, if the point belongs to the circle and False, if it does
+not belong. The program should read the coordinates of the point, call the IsPointInCircle function and, depending on
+the returned value, output the necessary message to the screen. The IsPointInCircle function should not contain the if
+statement.
+
 201 Minimum of two numbers
 Write the function min(a, b) that finds the minimum of two numbers. Then write a function min4(a, b, c, d) that finds
 the minimum of four numbers using the min function. Read four integers and output their minimum.
