@@ -1,3 +1,58 @@
+181 Swap the columns
+Given a two-dimensional array (matrix) and the two numbers: i and j. Swap the columns with indices i and j within the
+matrix. Input contains matrix dimensions n and m, not exceeding 100, then the elements of the matrix, then the indices i
+and j.
+
+182 Two-dimensional array
+Given two integers n and m, not exceeding 100. Fill in the two-dimensional array (matrix) of size n×m with the numbers
+from 1 to n×m by “diagonals”, as shown in the example. Output the resulting matrix, each element should take exactly 4
+characters (including spaces).
+
+183 Сhess order
+Given two integers n and m, not exceeding 100. Fill in a matrix of size n×m chequer-wise: the cells of one color should
+be filled with zeros, and of another color - with positive natural numbers top to bottom, left to right. Number 1 should
+be written in the top left corner. Output the resulting matrix, each element should take exactly 4 characters.
+
+184 Spiral
+Output the matrix of size n×n, filled by the integers from 1 to n2 in a spiral, coming from the top left corner and
+twisted clockwise, as shown in the example (here n=5).
+
+185 Swap the elements in matrix
+Write a program, which inputs the rectangular matrix from a sequence of lines, ending with a line, containing the only
+word "end" (without the quotation marks). The program should output the matrix of the same size, where each elements in
+the position (i, j) is equal to the sum of the elements from the first matrix on the positions (i-1, j), (i+1, j),
+(i, j-1), (i, j+1). Boundary elements have neighbours on the opposite side of the matrix. In the case with one row or
+column, the element itself maybe its neighbour.
+
+186 Transposing
+Write a program that takes a matrix as input, performs its transposing and outputs the result.
+
+187 Update dictionary
+Write the function update_dictionary(d, key, value), which takes the dictionary d and the two numbers key and value. If
+the key key is present in the dictionary d, then append the value value to the list, which is stored by this key. If the
+key key is not present in the dictionary, you need to append the value to the list keyed 2⋅key. Is there is no key
+2⋅key, you need to add the key 2⋅key to the dictionary and store the list [value] by it. You need to implement only this
+function, there should be no code except of it. The function should not call the input and print functions.
+
+188 The results of the function
+There is an implemented function f(x), accepting an integer number x as input, which calculates some integer value and
+returns it as a result of the operation. The functions is calculated rather long, does not print anything, does not
+write anything into files and depends only on the argument x. Write a program, the first line input of which contains
+the n number — the amount of x values, for which you need to find out the value of the function f(x), then the n values
+themselves, each on the separate line. After each entered argument value, the program should output the corresponding
+values of the f function on the separate line. To speed up the computation necessary to save already calculated values
+of the function under certain known arguments.
+
+189 War and Peace
+The program must read one line from the standard input and for each unique word in this line output the count of its
+repeated occurrence (case insensitive) in the "word amount" format (see the output example). The order of words output
+may be arbitrary. Each unique word must appear in the output only once.
+
+190 Turtle
+The program gets a number of commands n as input, which should be performed by the turtle, followed by the n lines with
+the commands themselves. You need to output two numbers in the single line: the first and the second coordinate of the
+final point for the turtle. All coordinates are integers.
+
 191 Spell checker
 The simplest spell checker is based on a list of known words. Every word in the checked text is searched for in this
 list and, if such a word was not found, it is marked as erroneous. Write this spell checker. The first line of the input
