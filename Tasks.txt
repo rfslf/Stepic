@@ -1,3 +1,61 @@
+171 Small parser
+Write a program that parses user commands and imitates their processing. A sequence of commands, each on a separate
+line. A command consists of the letters of Latin alphabet, spaces and tab symbols. It is guaranteed that there are no
+spaces at the beginning and at the end of a line. End is always the last command. Messages while processing of commands,
+as specified in the problem statement; one message per line.
+
+172 Maximum element in a matrix
+Find the indexes of the initial appearance of the maximum element in a matrix. On the input, the program receives the
+size of matrix n and m, and then n lines having m numbers in each. n and m do not exceed 100. Output two numbers: the
+row number and the column number, in which the greatest item in the two-dimensional array (matrix) is located. If there
+are several such elements, output the one, which has the smaller row number; and if row numbers are the same - the one
+having the smaller column number.
+
+173 Matrix 2
+Given the number n, not greater than 100. Create the matrix of size n×n and fill it by the following rule. Numbers 0
+should be stored on the primary diagonal. The two diagonals, adjacent to the primary one, should contain numbers 1. The
+next two diagonals - numbers 2, etc.
+
+174 Star figure
+Given an odd number n, not exceeding 15. Create a two-dimensional array (matrix) from n×n elements, by filling it with
+"." symbols (each element of the matrix is a string containing a single symbol). Then fill the middle row of the matrix,
+the middle column, and the main and the secondary diagonals with the "*" symbols. As a result, all "*"s in the array
+must form the star figure. Output this matrix; elements of the array should be space separated.
+
+175 Cinema
+The cinema has n rows, each consisting of m seats (n and m do not exceed 20). The two-dimensional matrix stores the
+information on the sold tickets, number 1 means that the ticket for this place is already sold, the number 0 means that
+the place is available. You want to buy k tickets to the neighbouring seats in the same row. Find whether it can be done.
+On the input, the program gets the numbers n and m. Next go n lines, each containing m numbers (0 or 1), separated by
+spaces. Next goes the number k. The program should output the row number in which there are k consecutive available
+seats. If there are several such rows, output the number of the smallest such row. If there is no such row, output the
+number 0.
+
+176 Transposition of the matrix
+Input, separated by spaces: the number of rows of the matrix, the number of columns of the matrix, then go the elements
+of the two-dimensional matrix itself, row by row. Output: the result of the transposition of the matrix (row by row).
+
+177 Symmetric matrix
+Given the number n, not exceeding 10, and a matrix of size n × n. Check whether this matrix is symmetric in relation to
+the main diagonal. Output the word “YES”, if it is symmetric and the word “NO” otherwise.
+
+178 K-th diagonal below the primary diagonal
+Given the square two-dimensional matrix of size n × n and the number k. Output the elements of the k-th diagonal below
+the primary diagonal (i.e. if k = 1, you need to output the elements of the first diagonal below the primary one, if
+k = 2 - the second diagonal, etc.). The value of k can be negative, for example, if k = −1, you need to output the value
+of the first diagonal above the primary one. If k = 0, it is needed to output the elements of the primary diagonal.
+The program gets the number n as input, not exceeding 10, than the matrix of size n × n, than the number k.
+
+179 S-shape
+Given two integers n and m, each of then does not exceed 30.. Fill in the two-dimensional array (matrix) of size n×m
+with the numbers from 1 to n×m in “S-shape”, as shown in the example. Output the resulting matrix, each element should
+take exactly 4 characters (including spaces).
+
+180 Rotate a rectangle array
+Given a rectangle array n×m in size. Rotate it by 90 degrees clockwise, by recording the result into the new array m×n
+in size. Input the two numbers n and m, not exceeding 100, and then an array n×m in size. Output the resulting array.
+Separate numbers by a single space in the output.
+
 181 Swap the columns
 Given a two-dimensional array (matrix) and the two numbers: i and j. Swap the columns with indices i and j within the
 matrix. Input contains matrix dimensions n and m, not exceeding 100, then the elements of the matrix, then the indices i
