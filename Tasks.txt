@@ -1,3 +1,55 @@
+161 List
+Given single line with integers, separated by a space. Output the elements from the even positions, each on a separate
+line, and the sum of the even elements. The positions are numbered starting with 1.
+
+162 Simple list processing
+Write a program that takes a list of numbers, and outputs the maximum and the minimum number in the list (in one line).
+Please don't use the standard max and min functions, which do the same. It is important that you could do it by yourself.
+
+163 Line with integers
+Write a program that reads a line with integers (the number of integers can be arbitrary) and, using a loop by the
+elements of this list, calculates the sum of integers in this string.
+
+164 List 2
+You are given an integer number A and an array ending with 0. You must count how many times A appears in the array.
+INPUT: User firstly inputs A, and then the array of indefinite length ending with 0.
+OUTPUT: The number of times A appears in the array.
+
+165 Repeated values
+Write a program that takes a list of integers as input, and outputs the values that are repeated in it more than once.
+You may need the list method sort to solve this problem. Input format: One line with integers, separated by a space.
+Output format: A line with integers, separated by a space. The numbers must not be repeated, the output order can be
+arbitrary.
+
+166 Go through the array
+Given the array of length M with integers in the range 1 ... N, where N is not greater than 20. You need to go through
+the array and count how many times each number appears. Please do not use the 20 individual variables for the counters,
+but create an array from them. Input data contain M and N in the first line. Second line (it may be quite long) contains
+M numbers, separated by a space. The solution should contain exactly N numbers, separated by spaces. The first indicates
+ the number of ones in the original array, the second – the number of twos, and so on.
+
+167 Checksums
+Checksums – the small values computed from the relatively large amounts of data, in order to ensure its consistency –
+i.e. to check that the data was not accidentally damaged, changed or partially lost. Given an array, you need to
+calculate its checksum. This should be done as follows: each element (starting from the first one) is added to the
+current result (starting from 0); the resulting amount is multiplied by 113, then take the reminder by modulo 10000007 –
+ this will be the new value of the result, and so on. Input data contains the length of the array in the first line.
+Elements of the array follow in the second line, space separated. The output should contain a single number – the
+resulting checksum.
+
+168 List of prime numbers
+Input data in the first line specifies the number of prime numbers to be output. The second line contains the indices of
+interest to us in the array of prime numbers. They will be in the range from 1 to 200000. The output should contain the
+prime numbers, corresponding to the specified positions in the array of all primes. Please note: in this problem indices
+of the array start from 1 and not from 0, so it will be easier to compare with primes lists from the internet.
+
+169 The maximum pairwise product
+The maximum pairwise product The first input line contains an integer 2≤n≤2⋅105, the second — the sequence of integers
+0≤a1,a2,…,an≤105. Print the maximum pairwise product of the two elements of the sequence, i.e. max1≤i≠j≤naiaj.
+
+170 Finite simple continued fraction
+Write a program, which will transform the ordinary fraction into a list of coefficients a0,a1,…,an.
+
 171 Small parser
 Write a program that parses user commands and imitates their processing. A sequence of commands, each on a separate
 line. A command consists of the letters of Latin alphabet, spaces and tab symbols. It is guaranteed that there are no
