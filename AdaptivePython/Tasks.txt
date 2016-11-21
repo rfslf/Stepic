@@ -1,3 +1,47 @@
+141 The problem of calculating the average time
+Implement reducer in the problem of calculating the average time a user spent on the page. Mapper transfers data to
+reducer in a form of key / value, where key - page address, value - number of seconds the user spent on this page.
+Cast the average time at the output to an integer. The output data should be displayed in the order in which they came.
+
+142 Linear algebraic equations
+Write a program that solves system of linear algebraic equations by the Gaussian method.
+
+143 K-combinations of n elements
+You need to generate all possible k-combinations of n elements.
+
+144 System of linear algebraic equations
+Write a program that finds the best solution to a system of linear algebraic equations by the least squares method.
+
+145 Catalan numbers
+Knowing the explicit form of the Catalan numbers, output the recurrence relation, expressing Cn+1 only through Cn and
+use it for the effective calculation of Cn. Input gets the number n≤100000. Output Cn by modulo 1000000007.
+
+146 Calculate the Catalan number
+Given a single natural number n≤1000 as input. You need to calculate the Catalan number Cn. As it can be very large,
+output it by module 1000000007.
+
+147 Buffer class
+Implement the Buffer class, which will store the sequence elements and output the sum of the five consequent elements as
+accumulation proceeds. One of the requirements for the class is that it should not store more elements than it is
+necessary, that is it does not have to store the elements that are already included in the five, for which the sum was
+displayed.
+
+148 Money Box
+Implement the MoneyBox class to work with a virtual money box. Each money box has a limited capacity – the number of
+coins (an integer) that can fit into this particular money box. The class should support the storing of  the number of
+coins inside the money box, provide an functionality to add coins to the money box and to find out, whether you can add
+some more coins, not exceeding its capacity.
+
+149 Poker
+Write a program that gets the input of the five cards and outputs the senior poker combination, which is formed by these
+cards. Input format: Single string, which specifies the five cards in the <value><suit> format, separated by a space.
+Output format: The name of the senior combination in the given five cards.
+
+150 Fool
+Write a program, which decides whether one cards beats another one.
+If there are two cards of the same suit, wins the one having the higher face value;
+If the cards belong to the different suits, wins the one having the trump suit;
+If the cards belong to the different suits and there are no cards from the trump suit, nobody wins.
 
 151 Loggable List
 Implement the class LoggableList, inheriting it from the classes list and Loggable, so that when adding an element to
