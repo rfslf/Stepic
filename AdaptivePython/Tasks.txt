@@ -1,3 +1,56 @@
+131 Realization of the matrix
+Create and print (using the print function) an array of class np.ndarray with width 4 and height 3 with 2s on the main
+diagonal and 1s on the first diagonal above the main one
+
+132 Transform array
+Create an array of class np.ndarray of width 4 and height 3 with 2s on the main diagonal and 1s on the first diagonal
+above the main one.
+
+133 Read data from that file
+As input, your solution will get an address, where the csv-file is located – you have to read data from that file. The
+first line in the file - column names, other lines - numeric data (that is, each line except the first one, contains a
+sequence of real numbers, separated by commas). Find and print the vector of average values along the columns of the
+input data.
+
+134 Matrices
+On the input, the program is given two matrices, each in the following format: the first line contains two positive
+integers n and m separated by a space - matrix dimensions. The next line contains n⋅m space separated integers -
+elements of the matrix. It is assumed that the matrix is filled line-by-line, which means the first m numbers – the
+first row of the matrix, the numbers from m+1 to 2m- the second row, etc. Print the product of matrices XYT, if their
+forms match, otherwise print the line "matrix shapes do not match" (if the forms of the matrices do not match properly).
+
+135 Arguments
+Write a program that runs from the console and prints the values of all the transferred arguments on the screen (the
+name of the script does not need to be displayed). Do not change the order of the arguments in the output
+
+136 Perimeter of the circle
+Write a program which imports the math module and, by using the value of the number π from this module, finds the
+perimeter of the circle, which is given in a standard input, and outputs it to a standard output.
+
+137 Count the number of lines in file
+Download the file. It specifies the address of another file that you need to download using the requests module and
+count the number of lines in it. Use the function get to get the file (it makes sense to call the strip method of the
+argument in order to remove white space characters from the ends). Upon obtaining the file, you can find the answer by
+using to the field text. If the result of your program is not accepted, please check the url field for correctness.
+Break down the text using the method splitlines in order to calculate the number of lines inside this text.
+In the reply field write one number or submit the file, containing one number.
+
+138 Date
+Given three numbers in the first line, which correspond to some date – year, month and day. The second line contains a
+single number – days, the number of days. Find the year, month and day of the date, which will come when the number of
+days, equal to days, will pass from the initial date. Use the standard datetime module to solve this problem.
+You will find it helpful to use the datetime.date class to store the date and the datetime.timedelta class to add days
+to the date.
+
+139 The problem to calculate TF-IDF
+Implement mapper mapreduce of the problem to calculate TF-IDF using the Hadoop Streaming. In the input data, the key is
+a word, and the value consists of the document number and tf, separated by tab. The value in the output data consists of
+three components: document number, tf and 1, separated by ";".
+
+140 WordCount
+Write a program, which implements mapper for the WordCount in Hadoop Streaming.
+The output data should be displayed in the order in which they came.
+
 141 The problem of calculating the average time
 Implement reducer in the problem of calculating the average time a user spent on the page. Mapper transfers data to
 reducer in a form of key / value, where key - page address, value - number of seconds the user spent on this page.
