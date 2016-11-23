@@ -1,3 +1,69 @@
+121 Sorting
+Given an array of integers. You should sort it (in a non-decreasing order), and then for each element display its index
+in the initial array (starting from 1).
+
+122 Swap or skip
+We are given an array of integers, and we iterate through the pairs of adjacent elements from the beginning. If the
+first member of the pair is greater than the second one (i.e. if they violate the order), we will swap (exchange) them.
+What is especially important: the largest element will move to the latest position. Input data contain the sequence of
+elements of the array, all positive integers. After them goes -1 meaning the end (this value should not be included into
+the array). The output should contain single integer – the number of the performed swaps.
+
+123 The smallest possible number
+You should write a program which creates the smallest possible number from the digits of the two given natural numbers,
+while maintaining the order of the digits in these given numbers.
+
+124 Almost representative of the majority
+Given the natural integer 1≤n≤105 and the sequence of integers 0≤a1,…,an≤109. Output 1, is the sequence contains an
+integer, occurring strictly more than n3 times, and 0 otherwise.
+
+125 Priority Queue
+The first input line contains the number of operations 1≤n≤105. Each of the following n lines define the operation of
+one of the following types: Insert x, where 0≤x≤109 — integer number; ExtractMax   .
+First operation adds number x to the priority queue, the second one extracts the maximum number and outputs it.
+
+126 Greedy
+Little Johnny eats fruits from his grandma's basket. There are fruits with different mass in this basket. Little Johnny
+can pick up not more than K ounces. Each fruit weights not more than K ounces. At a time, he chooses a few of the most
+heavy fruits, which he can pick up simultaneously, bites a half of each of them and puts what is left back into the
+basket. If the fruit weights odd number of ounces, he bites off its half, rounded up to the nearest whole number. He
+completely eats those fruits, which weight 1 ounce. Find the number of attempts Little Johnny needs in order to eat all
+fruits in the basket. Write your heap storage class, which implements priority queue. Input data format. Integer n – the
+number of fruits, and the line with integer masses of fruits separated by space. Then in the separate line - the
+"lifting capacity". Output data format. A non-negative number – the number of attempts to the basket.
+
+127 Set of strings
+Implement the data structure "set of strings" based on a dynamic hash table with open addressing. Stored strings are not
+empty and contain lowercase Latin letters. The initial size of the table should be equal to 8. Perform rehashing only
+in the case when the table-filling coefficient reaches 3/4. The structure of the data should support the operation of
+adding a string to the set, deleting a string from the set and membership testing of this string to the set.
+
+128 Sort the time moments
+You need to sort the time moments, specified in hours, minutes and seconds. Input data The first line contains number N
+(1 <= N <= 100), and the next N lines – N time intervals. Each time interval is set by three integers - hours (from 0
+to 23), minutes (from 0 to 59) and seconds (from 0 to 59). Output the time intervals, sorted in nondecreasing order
+without leading zeroes.
+
+129 Binary tree
+Given the number N<106 and the sequence of integers from the interval [−231..231] of length N. Construct the binary
+tree, specified by the naive insertion order. Meaning: when adding the next number K to the tree with the root “root”,
+if the root→Key ≤ K, then the K node is added to the right root subtree; otherwise – to the left root subtree. Output
+elements in a post-order (bottom-up), separating them by spaces.
+
+130 Military unit
+In one military unit, it was decided to stand in a single line according to height. As the discipline was not the best
+feature of this unit, some soldiers were late, and some had to be excluded from the activity due to their dirty boots.
+Nevertheless, when soldiers left and arrived they had to stand according to their height - the tallest in the beginning,
+and the shortest - in the end. The chief warrant officer was responsible for the procedure and he noticed an interesting
+feature – all soldiers in this military units had the different height. Your task is to help him correctly arrange the
+soldiers, namely: for every arriving soldier you need to specify in front of which soldier he has to stand. You need to
+find it within O(logn) time.Input data format. The first line contains number N – the number of commands. Each of the
+next lines contains the description of the command: the number 1 and X if the soldier stands into the line (X – the
+height of the soldiers, a natural number up to 100 000 inclusive) or the number 2 and Y if the soldier, standing on the
+Y place in the line, needs to be removed from this single line. Soldiers in the line are numbered from zero. Output data
+format.For each command 1 (add to the line) you need to output the number K – the position, where this soldier has to
+stand (all soldiers standing behind him, have to move back).
+
 131 Realization of the matrix
 Create and print (using the print function) an array of class np.ndarray with width 4 and height 3 with 2s on the main
 diagonal and 1s on the first diagonal above the main one
@@ -719,8 +785,7 @@ information on the name of the artists and his or her birth year. Output names o
 by their birth years. If the artists have the same year of birth, output their names in lexicographic order.
 
 263 Change Problem
-Solve the Change Problem.
-Input: An integer money and an array Coins=(coin1,⋯,coind).
+Solve the Change Problem. Input: An integer money and an array Coins=(coin1,⋯,coind).
 Output: The minimum number of coins with denominations Coins that changes money.
 
 264 The shortest distance
