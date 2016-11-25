@@ -1,6 +1,7 @@
 N = int(input())
 S = list(map(int, input().split()))
 
+
 def subsequence(seq):
     if not seq:
         return seq

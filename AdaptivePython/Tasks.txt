@@ -1,3 +1,53 @@
+101 Backpack
+The first input line contains the integers 1≤W≤104 and 1≤n≤300 — the capacity of the backpack and the number of gold
+bars. The next line contains n integers 0≤w1,…,wn≤105, specifying the weight of these bars. Find the maximum weight of
+the gold you can carry in the backpack.
+
+102 Stairs
+Given 1≤n≤102 – numer of stairs of the staircase, and the integers −104≤a1,…,an≤104, which are used to mark the stairs.
+Find the maximum sum that can be obtained by going up the stairs from the bottom up (from the zero to the n-th stair),
+each time going up one or two steps.
+
+103 Edit distance
+Calculate the edit distance of the two given non-empty strings having length of not more than 102, containing lowercase
+letters of the Latin alphabet.
+
+104 The largest consecutive-divisible subsequence
+Given the integer 1≤n≤103 and the array A[1…n] of natural numbers, not exceeding 2⋅109. Output the maximum 1≤k≤n, for
+which there will be a subsequence 1≤i1<i2<…<ik≤n with length k, each element of which is divisible by the previous one
+(formally: for all 1≤j<k, A[ij]|A[ij+1]).
+
+105 Non-increasing subsequence
+Given n integers ai from 1 to n. Your task − to find the longest non-increasing subsequence of this sequence, i.e. such
+sequence of indices  (i1<i2<⋯<ik), such that ai1≥ai2≥⋯≥aik and there is no sequence with the same properties of length
+k+1. Use dynamic programming. This problem should be solved for O(nlogn).
+
+106 Matrix
+Given rectangular array (matrix) Mx N with integer elements. Find a rectangular area of this matrix, the sum of whose
+elements is maximum.
+
+107 Messages
+In the message, consisting of the capital letters of the English alphabet, each letter was replaced by its number in
+the alphabet (A - 1, B - 2, ..., Z - 26), and the space was replaced by as zero. By a given sequence of numbers, you
+should find the number of the initial messages, from which it could be obtained.
+
+108 Various sum
+Given N integers A1, A2, ..., AN. You should find the number of various sum values of k1A1 + k2A2 + ... + kNAN.
+
+109 The rabbit and the ladder
+The rabbit appeared in the Zoo. He was placed in a cage, and the Director of the Zoo ordered to put a ladder in his
+cage, so that he could entertain himself. Now our rabbit can jump up the ladder, jumping over the steps. The ladder has
+the particular number of stairs N. In one jump the rabbit can jump over not more than К steps. To make it more fun, the
+rabbit each time tries to find a new way to the top of the ladder. The Director is interested in how many different ways
+does the rabbit have to reach the top of the ladder for a given values K and N. Help the Director to write a program
+that will compute this number. For example, if K=3 and N=4, the following ways exist: 1+1+1+1, 1+1+2, 1+2+1, 2+1+1, 2+2,
+ 1+3, 3+1. Therefore for the given values the rabbit has only 7 different ways to reach the top of the ladder.
+
+110 Binary search
+The first line contains integer 1≤n≤105 and array A[1…n] of n various natural numbers, not exceeding 109, in ascending
+order, the second one contains integer 1≤k≤105 and k natural numbers b1,…,bk, not exceeding 109. For each i from 1 to
+k it is necessary to output index 1≤j≤n, for which A[j]=bi, or −1, if there is no such j.
+
 111 Binary search 2
 Given the sorted array of various integers A[0..n-1] and the array of integers B[0..m-1]. For each of the element of the
 array B[i] find the minimum index of the array element A[k], nearest to B[i]. Search operation time for each element
