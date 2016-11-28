@@ -1,3 +1,60 @@
+91 Cover intervals with points
+Given n intervals. Find the set of points having the minimum size (cardinality), for which each of the given intervals
+contains at least one of the points. The first line given 1≤n≤100 - number of intervals. Each of the next n lines
+contains two 0≤l≤r≤109 numbers, setting the beginning and the end of the interval. Output the minimum size of the set m
+and the m points themselves. If there are several such sets, output any of them.
+
+92 Continuous backpack
+First line contain the number of items 1≤n≤103 and capacity of the backpack 0≤W≤2⋅106. Each of the next n lines
+specifies the cost 0≤ci≤2⋅106 and volume 0<wi≤2⋅106 of an item (n, W, ci, wi — integers). Output the maximum cost of
+parts of the items (you can separate any part from each item, its cost and volume will decrease proportionally), placed
+in the backpack, with an accuracy of not less than three decimal places.
+
+93 Huffman coding
+Given non-empty string s of length not more than 104, consisting of lowercase letters of the Latin alphabet. Construct
+an optimized prefix-free code. In the first line output the number of various letters k, which are present in the
+string, and the size of the resulting encoded string. In the next k lines write letter codes in the "letter: code"
+format. In the last line output the encoded string.
+
+94 Huffman decoding
+Restore the string by its code and the prefix-free code of symbols. The first line of the input file specifies the two
+integers k and l separated by a space — the amount of various characters in the string and the size of the resulting
+encoded string, accordingly. The next k lines contain letter codes in the "letter: code" format. None of the codes is a
+prefix of another one. Letters can be listed in any order. Letters can be only the lowercase letters of the Latin
+alphabet; each of these letters occurs in the string at least once. Finally, the last line contains an encoded string.
+The original string and the codes of all the letters are not empty. The specified code is that a coded string has the
+minimum possible size. In the first line of the output file output the string s. It should consist of the lowercase
+letters of the Latin alphabet. It is guaranteed that the length of the correct answer does not exceed 104 symbols.
+
+95 Pairwise different summands
+Given an integer 1≤n≤109 find the maximal number k such that n can be represented as a sum of pairwise different
+positive integers. In the first line output k, in the next line output k summands.
+
+96 Frequency of number
+Given the natural number 1≤n≤105 and the array of integers A[1…n], not exceeding 109 by absolute value. Output 1, if the
+ array A contains the number occurring strictly more than n/2 times, and output 0 otherwise.
+
+97 The k-th order statistics
+Given non-negative integers n, k and array of integers from the range of [0..109] size n≤106. You need to find the k-th
+order statistics, i.e. to print the number, which would reside on the position with the index k (0..n-1) in the sorted
+array. Write a non-recursive algorithm using the "divide and conquer" method.
+
+98 The minimum number of coins
+Each square of the rectangular table N×M contains some number. Initially the player is located in the top left square.
+In one move he is allowed to move to the neighbouring cell either to the right or down (left and upward moves are not
+permitted). When passing through a square the player pays that amount of coins, which is written in this square (he
+must also pay coins for the first and for the last squares of his path). You need to find the minimum number of coins,
+which the player needs to take in order to get to the bottom right corner.
+
+99 The longest increasing subsequences
+Given a sequence of integers. Find any of its longest increasing subsequences. The sequence is given in the form of
+numbers separated by spaces on a single line. Output the subsequence in a single line, space separated.
+
+100 Calculator
+You have a basic calculator, which has only three operations with the current number x: replace x by 2x, 3x or x+1.
+Given the integer 1≤n≤105, find the minimum number of k operations, necessary to get n from 1. Output k and the
+sequence of intermediate numbers.
+
 101 Backpack
 The first input line contains the integers 1≤W≤104 and 1≤n≤300 — the capacity of the backpack and the number of gold
 bars. The next line contains n integers 0≤w1,…,wn≤105, specifying the weight of these bars. Find the maximum weight of
