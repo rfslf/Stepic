@@ -1,3 +1,43 @@
+81 Greeting
+Write a program, which asks the name of the user and than greets him.
+
+82 Sum
+Find the sum of two numbers.
+
+83 Sequence reversal
+Write a program, which turns a sequence of integers x1,x2,…,xn into the sequence (x1+xn),(x2+xn−1),(x3+xn−2),… of
+length ⌈n/2⌉.
+
+84 Replacement
+At some point, you got tired of using the file names with spaces and you have decided to write a program that renames
+all files that contain spaces in their names by replacing the groups of spaces by the underscore symbol "_". First, you
+need to write a program that reads the string and replaces the group of white space characters by underscore symbols.
+
+85 IP address
+Write a program to determine whether the specified string is a correct IP address.
+
+86 Containing the words
+Input of the program is a line containing the words separated by a space. The program should output the information of
+lengths of words in the given line, from the shortest to the longest word (see the example). A word is a sequence of
+arbitrary characters surrounded by spaces or line boundaries. Note that punctuation marks also belong to a word.
+
+87 Login and password
+You have login and password as integer numbers stored in the code as login and password variables. The user inputs two
+integers (the login and the password). If they match to one in the code - output "Login success", if the password
+doesn't match, but logins match, output "Wrong password", if login is wrong, output "No user with login XXXX found",
+where XXXX is the login, the user's just input.
+
+88 Transform the symbol
+Transform the symbol into uppercase.
+
+89 Uppercase
+Input a single character and change its register. That is, if the lowercase letter has been entered – make it uppercase,
+ and vice versa. Characters that are not Latin ones need to stay unchanged.
+
+90 Digit or not?
+Find whether the given symbol is a digit. Output "yes", is the symbol is a digit and "no" otherwise. Please note that
+you should output words in a lowercase.
+
 91 Cover intervals with points
 Given n intervals. Find the set of points having the minimum size (cardinality), for which each of the given intervals
 contains at least one of the points. The first line given 1≤n≤100 - number of intervals. Each of the next n lines
