@@ -1,3 +1,44 @@
+71 Grades 2
+Write a program which finds the percentage of students who have received the A grade. Used the five-point grading scale
+with grades A, B, C, D and F.
+
+72 Units of measurement
+You should write a program that can transform some units of measurement into others.
+
+73 Anagrams
+Write a program that checks whether two given words are anagrams.
+The program should output True in the case if entered words are anagrams, and False otherwise.
+
+74 Substring
+Write a program that finds all occurrences of the given substring in the string.
+
+75 100 years old
+Write a program, which takes the name and age of a person as input (in a single line, space-separated), and finds the
+year when this person turns 100 years old. Let's assume that today is December 31, 2016.
+
+76 Letters
+As input your program receives the three strings – s, a, b, consisting of lowercase letters of the Latin alphabet.
+In a single operation you can exchange all the occurrences of string a in s to the string b. You need to find out after
+what minimum number of operations the string s will not contain occurrences of the string a, or to find out that it
+will not happen.
+
+77 The slice of string
+Given: A string s of length at most 200 letters and four integers a, b, c and d. Return: The slice of this string from
+indices a through b and c through d (with space in between), inclusively.
+
+78 Numbers
+Write a program that reads integers from the input one number per line. For each of the entered numbers please check:
+if the number is less than 10, then skip that number;
+if the number is greater than 100, then stop reading numbers;
+in any other cases bring the number back to the console in a separate line.
+
+79 Hello world!
+Print "Hello, world!"
+
+80 The same line
+Write a program, which reads the line from a standard input, using the input() function, and outputs the same line to
+the standard output, using the print() function.
+
 81 Greeting
 Write a program, which asks the name of the user and than greets him.
 
