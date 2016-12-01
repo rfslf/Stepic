@@ -1,0 +1,5 @@
+A = input()
+B = input()
+print(A+" and "+B+" sat in the tree.")
+print(A+' had fallen, '+B+' was stolen.')
+print("What's remaining in the tree?")

@@ -1,3 +1,51 @@
+61 The smallest integer
+A user inputs a number M. You need to find out what is the smallest integer n such that n! > M.
+
+62 The lucky ticket
+Paul loves to ride public transport and after receiving the ticket, he immediately checks whether he got the lucky one.
+A ticket is considered a lucky one if the sum of the first three numbers in this ticket matches the sum of the last
+three numbers in the same ticket. However, Paul does not count well in head that is why he asks you to write the
+program, which will check the equality of the sums and display "Lucky" if the sums match, and "Regular" if the sums
+differ. A string of six digits is provided as input to the program. You need to print out only the word "Lucky" or
+"Regular" with a capital letter.
+
+63 The percentage of G and C characters
+GC-content is an important feature of the genome sequences and is defined as the percentage ratio of the sum of all
+guanines and cytosines to the overall number of nucleic bases in the genome sequence. Write a program, which calculates
+the percentage of G characters (guanine) and C characters (cytosine) in the entered string. Your program should be case
+independent.
+
+64 Сompression algorithm
+Upon learning that DNA is not a random string, freshmen of the Bioinformatics Institute from the informatics group
+suggested using a compression algorithm that compresses repeated characters in a string.
+
+65 The longest word
+In the given string find the longest word and output it.
+
+66 Palindrome
+Given a string. Find whether it is a palindrome, i.e. it reads the same both left-to-right and right-to-left. Output
+“yes” if the string is a palindrome and “no” otherwise.
+
+67 Spaces
+Given a line, containing spaces. Find how many words are there (the word is a sequence of non-space characters, words
+are separated by a single space, the first and last character of the string is not a space).
+
+68 Contigs
+Write a program that reads an integer from the input (a non-negative one), and outputs this number to the console
+together with a correctly changed word "contig", for example: 1 contig, 5 contigs.
+
+69 From Python code into Java code
+You decided to write a converter from Python code into Java code. As CamelCase names are standard in Java, you decided
+to learn how to convert names from underscore into this format. First, write a program, which changes variable names
+from underscore to the UpperCamelCase style.
+
+70 Riddle
+Here you will learn how to work with strings. Many of us are familiar with the following child riddle:
+A and B sat in the tree.
+A had fallen, B was stolen.
+What's remaining in the tree?
+Write a program, which reads the two names and outputs the poem, in which these names are used instead of A and B.
+
 71 Grades 2
 Write a program which finds the percentage of students who have received the A grade. Used the five-point grading scale
 with grades A, B, C, D and F.
