@@ -1,3 +1,46 @@
+51 Squares of natural numbers
+Given integer N. Print all the squares of natural numbers, not exceeding N, in ascending order.
+
+52 Exact power of 2
+Given the natural number N. Output the word YES, if number N is the exact power of 2, or NO if otherwise.
+
+53 Length of the sequence
+On the input, the program gets a sequence of non-negative integers; each integer is written in a separate line. The
+sequence ends with an integer 0, when reading which the program should end its work and output the length of the
+sequence (not counting the final 0). Don’t read numbers following the number 0.
+
+54 The largest element of the sequence
+Given the sequence of integer numbers (which ends with the number 0). Find the largest element of the sequence.
+The number 0 itself is not included into the sequence, but serves only as a sign of the end.
+
+55 Sequence
+Write a program that prints a part of the sequence 1 2 2 3 3 3 4 4 4 4 5 5 5 5 5 ... (the number is repeated as many
+times, to what it equals to). Input to the program is a positive integer n – the number of the elements of the sequence
+the program should print. On the output, it is expected to get the sequence of numbers, written in a single line,
+space-separated.
+
+56 Sum of the squares
+Write a program, which reads numbers from the input (by one in a line) until the sum of these numbers will not be equal
+to 0, and right after this outputs the sum of the squares of all read numbers. It is guaranteed that at some moment the
+sum of the numbers will be equal to 0, and there is no need to continue reading after this. In the example, we are
+reading numbers 1, -3, 5, -6, -10, 13; and at this moment, we notice that the sum of these numbers is equal to zero,
+therefore we output the sum of their squares, not paying attention to the remaining numbers.
+
+57 The smallest natural divisor
+Given an integer, not less than 2. Find its smallest natural divisor, different from 1.
+
+58 The average value
+Given the sequence of integers, ending with number 0. Find the average value of all elements in this sequence.
+The number 0 itself is not included into the sequence and serves just as a sign of cessation.
+
+59 Standard Deviation
+Given a sequence of integers, ending with number 0. Find the standard deviation of this sequence. There are at least
+two numbers in the sequence.The number 0 itself is not included into the sequence and serves as a sign of cessation.
+
+60 Division
+You are given an integer number of indefinite length. Check, whether this number divides by 3 or not, without using the
+remainder (%) operation. Print "YES" if the number divides by 3 and "NO" if it doesn't.
+
 61 The smallest integer
 A user inputs a number M. You need to find out what is the smallest integer n such that n! > M.
 
