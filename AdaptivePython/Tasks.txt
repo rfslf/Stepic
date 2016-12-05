@@ -1,3 +1,51 @@
+41 Sum of integers
+Print the sum of all integers from a to b (a < b).
+
+42 Grades
+Find the number of "Ds", "Cs", "Bs" and "As" for the last test on informatics in the class consisting of n students.
+The program gets number n as input, and then gets the grades themselves (one by one). The program should output four
+numbers in a single line - the number of "D", the number of "C", the number of "B" and the number of "A" grades.
+
+43 Sum of numbers, divisible by 6
+Given the sequence of natural numbers. Find the sum of numbers, divisible by 6. The input is number of elements in the
+sequence, and then the elements themselves. In this sequence, there is always a number, divisible by 6.
+
+44 Maximum element divisible by 4
+Given a sequence of natural numbers, not exceeding 30000. Find the its maximum element divisible by 4. As input, the
+program gets the number of elements in the sequence, and then the elements themselves. In the sequence, there is always
+an element divisible by 4. The number of elements does not exceed 1000. The program should print the single number –
+the maximum element of the sequence divisible by 4.
+
+45 Sum of elements, ending by 4
+Given a sequence of natural numbers, not exceeding 30000. Find the sum of its elements, ending by 4. As input, the
+program gets the number of elements in the sequence, and then the elements themselves. In the sequence, there is always
+an element that ends by 4. The number of elements does not exceed 1000. The program should print the single number -
+the sum of elements in the sequence which ends by 4.
+
+46 Fizz Buzz
+Fizz Buzz is a classic programming problem. Here is its slightly modified version. Write a program that takes the input
+of two integers: the beginning and the end of the interval (both numbers belong to the interval). The program should
+output the numbers from this interval, but if the number is divisible by 3, you should output Fizz instead of it, if
+the number is divisible by 5 - output Buzz, and if it is divisible both by 3 and by 5 - output FizzBuzz.
+Output each number or the word on a separate line.
+
+47 The interest rate
+The interest rate on the deposit is P percent per annum, which are added to the deposit amount after one year. The
+deposit is X dollars Y cents. Find the size of the deposit in K years.
+
+48 Size of parts
+A detector compares the size of parts produced by a machine with the reference standard.
+If the size of the part is larger, it can be sent to be fixed, and the detector prints the number 1.
+If the size of the part is smaller, it is removed as reject, and the detector prints the number -1.
+If the part was made perfect, it is sent to the box with ready products, and the detector prints 0.
+
+49 Sum of all elements
+Find the sum of all elements of the sequence, ending with the number 0. The number 0 itself is not included into the
+sequence and serves as a sign of cessation.
+
+50 Powers of two
+Given number N. Print all integer powers of two, not exceeding N, in ascending order.
+
 51 Squares of natural numbers
 Given integer N. Print all the squares of natural numbers, not exceeding N, in ascending order.
 
