@@ -1,3 +1,68 @@
+21 Interval
+Given an integer as input. Output True if its value is within the interval (−15,12]∪(14,17)∪[19,+∞), and False otherwise
+(case sensitive).
+
+22 Healthy sleep
+Ann watched a TV program about health and learned that it is recommended to sleep at least A hours per day, but
+oversleeping is also not healthy and you should not sleep more than B hours. Now Ann sleeps H hours per day. If Ann's
+sleep schedule complies with the requirements of that TV program – print "Normal". If Ann sleeps less than A hours,
+output “Deficiency”, if she sleeps more than B hours, output “Excess”. Input to this program are the three strings with
+variables in the following order: A, B, H. A is always less than or equal to B. Please note latters case: the output
+should exactly correspond to what required in the problem, i.e. if the program has to output "Excess", such output as
+"excess", "EXCESS", "ExCeSs" and others will not be graded as correct. You should carefully think about all conditions,
+which you need to use. A special attention should be paid to the strictness of the used conditional operators:
+distinguish between < and ≤; > and ≥.
+
+23 Floor-space of the room
+Residents of the Malevia country often experiment with the plan of their rooms. Rooms can be triangular, rectangular and
+ round. To quickly calculate the floorage it is required to write a program, which gets the type of the room shape and
+ the relevant parameters as input - the program should output the area of the resulting room.
+The value of 3.14 is used instead of the number π in Malevia.
+
+24 Robot
+The robot moves down the office in the Bioinformatics Institute. Recently, students from the programmers group wrote a
+program for this robot, according to which when robot enters the room, he counts the number of programmers present in
+this room and says it aloud: "n programmers". In order for it to sound correctly, for each n you need to use the correct
+word ending. Write a program, reading an integer n (non-negative one) from the user input, outputting this number
+together with the correctly changed word "programmer", so that the robot could correctly communicate with people, for
+example: 1 programmer, 2 programmers, 5 programmers. There can be many programmers in one room. Make sure that your
+program works correctly for all the cases until 1000 persons
+
+25 Shape
+Write a program, which reads the number of the shape (1 – square, 2 – circle, 3 – triangle, 4 – rhombus) and prints the
+text "You have chosen a square" (or circle, or triangle, or rhombus, depending on the number). If it is a number, which
+doesn't correspond to any of the listed shapes, the program should output: "There is no such shape!".
+Note: output text should exactly match the sample! Including letters case and location of spaces.
+
+26 Direction
+Write a program, which reads the number of direction (1 – up, 2 – down, 3 – left, 4 – right, 0 – stay) and outputs the
+text «move up» (or «move down», or «move left», or «move right», or «do not move» depending on the entered number). If
+it is a number that does not belong to any of the listed directions, the program should output: «error!»
+Note: the output text should exactly match the sample! Including letters case and location of spaces.
+
+27 System of linear equations
+Given six real numbers – a, b, c, d, e, f. Solve the following system of linear equations:
+If the system has no solution, then the program should print a single number 0.
+If the system has infinitely many solutions, each of which looks like y=kx+b, then the program should print the number
+ 1, and then the values k and b.
+If the system has a single solution (x0, y0), then the program should print the number 2, and then the values x0 and y0.
+If the system has infinitely many solutions that look like x=x0 with any y, then the program should output the number 3,
+ and then the value x0.
+If the system has infinitely many solutions that look like y=y0 with any x, then the program should output the number 4,
+ and then the value y0.
+If any pair of numbers (x,y) is a solution, the program should output the number 5.
+
+28 Symmetrical number
+Given a four-digit number. Determine whether its decimal notation is symmetric. If the number is symmetrical, output 1,
+otherwise output any other integer. The number may have less than four digits, then you should assume that its decimal
+notation is complemented by insignificant zeros on the left.
+
+29 Positive number
+Write a program that reads the number and prints YES if it is positive. Otherwise, the program should print NO.
+
+30 Chess board
+You are given coordinates of two queens on a chess board. Find out, whether they hit each other or not
+
 31 Heron's formula
 calculating the area of a triangle by the transferred length of its sides, in accordance with the Heron's formula:
 S=p(p−a)(p−b)(p−c)−−−−−−−−−−−−−−−−−√where p=a+b+c2 – half-perimeter of the triangle. On the input, the program has
