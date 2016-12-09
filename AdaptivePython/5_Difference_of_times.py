@@ -1,0 +1,7 @@
+H1 = int(input())
+M1 = int(input())
+S1 = int(input())
+H2 = int(input())
+M2 = int(input())
+S2 = int(input())
+print(-(H1*3600+M1*60+S1-H2*3600-M2*60-S2))

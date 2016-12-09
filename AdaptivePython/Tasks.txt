@@ -1,3 +1,92 @@
+1 Squirrels and nuts
+N squirrels found K nuts and decided to divide them equally. Determine how many nuts each squirrel will get.
+
+2 Squirrels and nuts - 2
+N squirrels found K nuts and decided to divide them equally. Find how many nuts will be left after each of the squirrels
+takes the equal amount of nuts.
+
+3 Snail
+Snail creeps up the vertical pole of height H feets. Per day it goes A feets up, and per night it goes B feets down. In
+which day the snail will reach the top of the pole?
+
+4 MKAD
+The length of the Moscow Ring Road (MKAD) is 109 kilometers. Biker Vasya starts from the zero kilometer of MKAD and
+drives with a speed of V kilometers per hour. On which mark will he stop after T hours?
+
+5 Difference of times
+Given the values of the two moments in time in the same day: hours, minutes and seconds for each of the time moments. It
+ is known that the second moment in time happened not earlier than the first one. Find how many seconds passed between
+ these two moments of time. The program gets the input of the three integers: hours, minutes, seconds, defining the
+ first moment of time and three integers that define the second moment time. Output the number of seconds between these
+ two moments of tim
+
+6 Digital watches
+Digital watches display time in the h:mm:ss format (from 0:00:00 to 23:59:59), i.e. first goes the number of hours, then
+goes the two-digit number of minutes, followed by the two-digit number of seconds. If necessary, number of minutes and
+seconds are filled by zeroes to a two-digit number. N seconds passed from the beginning of the day. Output what the
+watches will display.
+
+7 Purchase pies
+A pie costs A dollars and B cents. Find how many dollars and cents you need to pay for N pies. The program gets three
+numbers as input: A, B, N - integers, positive, don't exceed 10000. The program should output two numbers separated by
+a space: cost of the purchase in dollars and cents.
+
+8 Desks
+Some school have decided to create three new math groups and equip classrooms for them with the new desks. Only two
+students may sit at any desk. The number of students in each of the three groups is known. Output the smallest amount
+of desks, which will need to be purchased. Each new group sits in its own classroom. The program receives the input of
+the three non-negative integers: the number of students in each of the three classes (the numbers do not exceed 1000).
+
+9 Next even number
+Given a natural number N, not greater than 10000. Output the even number following this N.
+
+10 The sum of digits of a three-digit number
+Given a three-digit integer (i.e. an integer from 100 to 999). Find the sum of its digits.
+
+11 The number of tens
+Given a non-negative integer N (0 ≤ N ≤ 1000000), find the number of tens in it (i.e. next to last digit of the number).
+ If there is no next to last digit, you can consider that the number of tens equals to zero.
+
+12 First digit of the two-digit number
+Given a two-digit number. Output its first digit (i.e. the number of tens).
+
+13 The last number
+Given a natural number, not exceeding 10000. Output its last digit.
+
+14 Reversing
+Write a program that reads a three digit number, calculates the new number by reversing its digits, and outputs a new
+number.
+
+15 Power
+Write a program, which reads two integers a and b (separated by a line break), and outputs the value of ab. The operator
+** is used in Python for exponentiation.
+
+16 Chocolate
+A chocolate bar has a shape of rectangle, divided into NxM segments. You can break down this chocolate bar into two
+parts by a straight line. Find whether you can break off exactly K segments from the chocolate.
+
+17 Leap year
+The problem is to find whether the given year is a leap year. Just a reminder: leap years are those years, the number
+of which is either divisible by 4, but not divisible by 100, or divisible by 400 (for example, the year 2000 is a leap
+year, but the year 2100 will not be a leap year). The program should work correctly for the years 1900 ≤ n ≤ 3000.
+Output "Leap" (case-sensitive) if the given year is a leap, and "Regular" otherwise.
+
+18 Calculator
+Ian was swimming in the pool having size of N×M feets and got tired. At this moment he realized that he is at a distance
+of X feets from one of the long ledge (not necessarily from the nearest one) and Y feets from one of the short ledges.
+What is the minimum distance (in feets) Ian needs to swim in order to reach the swimming pool ledge?
+The program input contains numbers N, M, X, Y.
+
+19 Swimming pool
+Ian was swimming in the pool having size of N×M feets and got tired. At this moment he realized that he is at a distance
+of X feets from one of the long ledge (not necessarily from the nearest one) and Y feets from one of the short ledges.
+What is the minimum distance (in feets) Ian needs to swim in order to reach the swimming pool ledge?
+The program input contains numbers N, M, X, Y.
+
+20 Triangle
+Given three natural numbers A, B, C. Define if the triangle with such sides exists. If the triangle exists - output the
+YES string, otherwise - output NO. Triangle is a three points that are not located on a single straight line.
+
 21 Interval
 Given an integer as input. Output True if its value is within the interval (−15,12]∪(14,17)∪[19,+∞), and False otherwise
 (case sensitive).
