@@ -1,0 +1,50 @@
+CREATE OR REPLACE FUNCTION SubmitReview(_paper_id INT, _reviewer_id INT, _score INT)
+  RETURNS VOID AS $$
+DECLARE
+    _exist_paper INT;
+    _exist_reviewer INT;
+    _having_mark INT;
+    _count_marks INT;
+    _total_mark FLOAT;
+    _average FLOAT;
+    _accept INT;
+    _paper INT;
+    _reviewer INT;
+BEGIN
+IF (_score > 0  and _score < 8) THEN
+    SELECT COUNT(id) INTO _exist_paper FROM Paper WHERE id=_paper_id;
+    SELECT COUNT(id) INTO _exist_reviewer FROM Reviewer WHERE id=_reviewer_id;
+    SELECT COUNT(PE.score), PE.paper_id, PE.reviewer_id
+     INTO _having_mark, _paper, _reviewer
+     FROM PaperReviewing PE
+     WHERE paper_id=_paper_id AND reviewer_id=_reviewer_id
+     GROUP BY paper_id, reviewer_id;
+    IF (_having_mark = 0) THEN
+        IF (_paper IS NOT NULL AND _reviewer IS NOT NULL) THEN
+            UPDATE PaperReviewing SET score=_score WHERE paper_id=_paper_id AND reviewer_id=_reviewer_id;
+            SELECT COUNT(score) INTO _count_marks FROM PaperReviewing WHERE paper_id=_paper_id;
+                IF _count_marks > 2 THEN
+                    SELECT SUM(score) INTO _total_mark FROM PaperReviewing WHERE paper_id=_paper_id;
+                    _average := _total_mark/_count_marks;
+                    IF _average > 4 THEN
+                        UPDATE Paper SET accepted=TRUE WHERE id=_paper_id;
+                    ELSE
+                        UPDATE Paper SET accepted=FALSE WHERE id=_paper_id;
+                    END IF;
+                END IF;
+        ELSE
+            RAISE SQLSTATE 'DB017';
+        END IF;
+    ELSE
+        SELECT COUNT(accepted) INTO _accept FROM Paper WHERE id=_paper_id;
+        IF (_accept = 0 AND _paper IS NOT NULL AND _reviewer IS NOT NULL) THEN
+            UPDATE PaperReviewing SET score=_score WHERE paper_id=_paper_id AND reviewer_id=_reviewer_id;
+        ELSE
+            RAISE SQLSTATE 'DB017';
+        END IF;
+    END IF;
+ELSE
+    RAISE SQLSTATE 'DB017';
+END IF;
+END;
+$$ LANGUAGE plpgsql;
